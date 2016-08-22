@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+# Icon=/home/nwboxuser/.PlayOnLinux/icones/full_size/Microsoft Powerpoint 2010
+Icon=application-vnd.ms-powerpoint
+Type=Application
+Categories=Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases;
+# Exec=playonlinux --run "Microsoft Powerpoint 2010"
+Exec=start-msppt
+MimeType=application/vnd.oasis.opendocument.database;application/vnd.sun.xml.base;
+Name=Powerpoint 2010
+GenericName=Powerpoint 2010
+Comment=MS Powerpoint 2010
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Data;SQL;
+InitialPreference=5

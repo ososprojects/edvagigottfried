@@ -1,0 +1,6 @@
+content	a00112-wips	chrome/content/
+
+overlay	chrome://browser/content/browser.xul	chrome://a00112-wips/content/BlockSiteOverlay.xul
+
+locale	a00112-wips	en-US	chrome/locale/en-US/
+locale	a00112-wips	ca-AD	chrome/locale/nl-NL/

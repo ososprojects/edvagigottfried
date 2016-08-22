@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DVD abspielen (mit SMPlayer)
+Comment=DVD einlegen, dann mit SMPlayer abspielen
+Exec=smplayer /dev/sr0
+Icon=applications-multimedia
+Path=
+Terminal=false
+StartupNotify=true

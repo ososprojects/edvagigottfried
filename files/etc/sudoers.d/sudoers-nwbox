@@ -1,0 +1,17 @@
+
+nwboxuser ALL = NOPASSWD: /sbin/shutdown
+# nwboxuser ALL = NOPASSWD: /sbin/mount.cifs
+# nwboxuser ALL = NOPASSWD: /bin/mount
+# nwboxuser ALL = NOPASSWD: /bin/umount
+nwboxuser ALL = NOPASSWD: /sbin/ifup
+nwboxuser ALL = NOPASSWD: /sbin/ifdown
+nwboxuser ALL = NOPASSWD: /bin/sed
+nwboxuser ALL = NOPASSWD: /etc/init.d/hostapd
+nwboxuser ALL = NOPASSWD: /usr/local/sbin/dt-shu10
+# nwboxuser ALL = NOPASSWD: /usr/local/sbin/dt-reset
+nwboxuser ALL = NOPASSWD: /usr/local/sbin/wlan.sudo
+nwboxuser ALL = NOPASSWD: /usr/local/sbin/wlanvnc.sudo
+nwboxuser ALL = NOPASSWD: /usr/local/sbin/dt-reset.sudo
+nwboxuser ALL = NOPASSWD: /usr/local/sbin/mounthome.sudo
+nwboxuser ALL = NOPASSWD: /usr/local/sbin/umounthome.sudo
+worker     ALL = NOPASSWD: /usr/local/sbin/addroot.sudo

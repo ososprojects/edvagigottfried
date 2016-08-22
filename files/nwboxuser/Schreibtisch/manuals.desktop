@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Icon=help-contents
+Name=Anleitungen
+Comment=Manuals für (fast) alle Fragen
+Categories=FileManager;Utility;Core;GTK;
+Exec=pcmanfm --profile=orte %U 
+StartupNotify=true
+Terminal=false
+MimeType=inode/directory;
+Path=/nwbox/manuals

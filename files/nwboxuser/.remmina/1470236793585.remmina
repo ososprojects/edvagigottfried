@@ -1,0 +1,17 @@
+[remmina]
+ssh_auth=0
+ssh_charset=UTF-8
+ssh_privatekey=
+group=
+password=
+name=Server
+ssh_username=root
+exec=
+ssh_server=server
+protocol=SSH
+ssh_enabled=1
+server=server
+window_maximize=0
+window_width=1280
+window_height=916
+viewmode=1

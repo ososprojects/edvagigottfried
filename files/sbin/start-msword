@@ -1,0 +1,26 @@
+#!/bin/sh
+
+if [ -e /opt/mso/config_done ]
+then
+  cp -pR /opt/mso/.cache /home/nwboxuser
+  cp -pR /opt/mso/.PlayOnLinux /home/nwboxuser
+  cp -pR /opt/mso/.fontconfig /home/nwboxuser
+fi
+
+notify-send 'MS Word wird gestartet.
+Bitte warte ein paar Sekunden.' -t 7000 -i application-msword
+playonlinux --run "Microsoft Word 2010"
+
+if [ ! -e /opt/mso/config_done ]
+then
+  sleep 3
+  mkdir -p /opt/mso/.cache
+  mkdir -p /opt/mso/.PlayOnLinux/wineprefix/Office2010/drive_c/windows/system32/spool/drivers
+  cp -pR /home/nwboxuser/.fontconfig /opt/mso
+  cp -pR /home/nwboxuser/.cache/fontconfig /opt/mso/.cache
+  cp -pR /home/nwboxuser/.PlayOnLinux/wineprefix/Office2010/*.reg /opt/mso/.PlayOnLinux/wineprefix/Office2010
+  cp -pR /home/nwboxuser/.PlayOnLinux/wineprefix/Office2010/drive_c/windows/win.ini /opt/mso/.PlayOnLinux/wineprefix/Office2010/drive_c/windows
+  cp -pR /home/nwboxuser/.PlayOnLinux/wineprefix/Office2010/drive_c/windows/system32/spool/drivers \
+                /opt/mso/.PlayOnLinux/wineprefix/Office2010/drive_c/windows/system32/spool
+  date > /opt/mso/config_done
+fi

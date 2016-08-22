@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://a00112-wips/locale/BlockSite.dtd">
+
+<window class="dialog"
+        title="&blocksiteAbout.Title;"
+        orient="vertical"
+        autostretch="always"
+        onload="sizeToContent()"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <!-- Original template by Jed Brown -->
+
+
+    <text value="&blocksiteAbout.Name;" style="font-weight: bold; font-size: x-large;"/>
+    <text value="ver. 1.0.1"/>
+    <spacer flex="1"/>
+    <groupbox align="center" orient="horizontal">
+        <vbox>
+            <text value="&blocksiteAbout.General;" style="font-weight: bold;"/>
+            <spacer flex="1"/>
+            <description style="width: 400px">
+      &blocksiteAbout.GeneralText;
+            </description>
+  
+            <text value="&blocksiteAbout.Wildcards;" style="font-weight: bold;"/>
+            <spacer flex="1"/>
+            <description style="width: 400px">
+      &blocksiteAbout.WildcardsText;
+            </description>
+  
+            <text value="&blocksiteAbout.ImportExport;" style="font-weight: bold;"/>
+            <spacer flex="1"/>
+            <description style="width: 400px">
+      &blocksiteAbout.ImportExportText;
+                <text value="[BlockSite]"/>
+                <text value="*.domain.*"/>
+                <text value="test.com*"/>
+                <text value="..."/>
+                
+            </description>
+  
+            <text value="&blocksiteAbout.Password;" style="font-weight: bold;"/>
+            <spacer flex="1"/>
+            <description style="width: 400px">
+      &blocksiteAbout.PasswordText;
+            </description>
+  
+            <text value="&blocksiteAbout.About;" style="font-weight: bold;"/>
+            <spacer flex="1"/>
+            <description style="width: 400px">
+      &blocksiteAbout.AboutText;
+            </description>
+  
+            <!--  <separator class="thin"/>
+      <text value="&blocksiteAbout.CreatedBy;" style="font-weight: bold;"/>
+      <text value="Wips.com" class="url"
+            onclick="window.open('mailto:info@wips.com'); window.close();"/>
+      <separator class="thin"/>
+      <text value="&blocksiteAbout.Contributor;" style="font-weight: bold;"/>
+      <text value="Contributor" class="url"
+            onclick="window.open('mailto:info@wips.com'); window.close();"/>
+      <separator class="thin"/>
+        <text value="&blocksiteAbout.HomePage;" style="font-weight: bold;"/>
+        <text value="http://www.wips.com"
+              class="url"
+            onclick="window.open('http://www.wips.com'); window.close();"/>
+      <separator class="thin"/>
+      <text value="&blocksiteAbout.Feedback;" style="font-weight: bold;"/>
+      <text value="info@wips.com"
+            class="url"
+            onclick="window.open('mailto:info@wips.com'); window.close();"/>-->
+        </vbox>
+        <spring flex="1"/>
+        <image src="chrome://a00112-wips/content/img/mrwips.png"/>
+    </groupbox>
+
+    <hbox>
+        <spacer flex="1"/>
+        <button label="Close" oncommand="window.close();"/>
+    </hbox>
+
+</window>
+
+
+

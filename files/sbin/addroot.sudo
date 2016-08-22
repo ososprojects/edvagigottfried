@@ -1,0 +1,8 @@
+#!/bin/sh
+
+passwd root
+# sudo mcedit /etc/ssh/sshd_config
+sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+service ssh restart
+

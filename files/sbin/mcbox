@@ -1,0 +1,3 @@
+#! /bin/sh
+
+mc /nwbox-nfs/files /nwbox-nfs/autoinstall/laus/scriptsForClasses/NETWORKBOX

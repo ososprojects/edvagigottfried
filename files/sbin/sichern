@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rsync -av --exclude '.cache' --exclude '.thumbnails' --exclude '*.tmp' --exclude '~.*' --exclude '.PlayOnLinux' \
+   /home/nwboxuser smb01:/export/files > /var/log/laus/sichern.log

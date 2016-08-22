@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Informatik
+Comment=
+Exec=pcmanfm --profile=faecher
+Icon=
+Path=/nwbox/Faecher/Informatik
+Terminal=false
+StartupNotify=false

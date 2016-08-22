@@ -1,0 +1,7 @@
+#! /bin/sh
+
+sync
+umount -l /home/nwboxuser
+rm -fR /nwboxuser-rw/*
+rm -fR /nwboxuser-rw/.*
+mount -t aufs -o dirs=/nwboxuser-rw:/opt/nwboxuser -o udba=reval none /home/nwboxuser

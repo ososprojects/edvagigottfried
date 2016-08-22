@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BE
+Comment=
+Exec=pcmanfm --profile=faecher
+Icon=
+Path=/nwbox/Faecher/BE
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Musik
+Comment=
+Exec=pcmanfm --profile=faecher
+Icon=
+Path=/nwbox/Faecher/Musik
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,1 @@
+WIPS.config_special_namespace = 'a00112';

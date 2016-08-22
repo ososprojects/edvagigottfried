@@ -1,0 +1,3 @@
+# shutdown at 14:00
+
+00 14 * * * nwboxuser /nwbox/public/shu1400.sh

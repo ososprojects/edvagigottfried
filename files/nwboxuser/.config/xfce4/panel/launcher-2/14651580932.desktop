@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Icon=kiriki
+Name=File Manager PCManFM
+Name[de]=Spiele
+GenericName=File Manager
+GenericName[de]=Dateimanager
+Comment=Browse the file system and manage the files
+Comment[de]=Hier findest du einige Spiele
+Categories=FileManager;Utility;Core;GTK;
+Exec=dt-spiele.sh
+StartupNotify=false
+Terminal=false
+MimeType=inode/directory;
+X-XFCE-Source=file:///usr/share/applications/pcmanfm.desktop
+Path=

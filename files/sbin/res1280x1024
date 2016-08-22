@@ -1,0 +1,6 @@
+#! /bin/sh
+
+xrandr -s 1280x1024
+xfdesktop --reload
+
+exit 0

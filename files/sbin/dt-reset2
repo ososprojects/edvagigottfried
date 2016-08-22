@@ -1,0 +1,21 @@
+#! /bin/sh
+
+sync
+umount -l /home/nwboxuser
+rm -fR /nwboxuser-rw/*
+rm -fR /nwboxuser-rw/.*
+sysctl -w vm.drop_caches=2
+mount -t overlayfs overlayfs -o upperdir=/nwboxuser-rw,lowerdir=/opt/nwboxuser,workdir=/nwboxuser-work /home/nwboxuser
+xfdesktop --reload
+
+exit 0
+
+# quick hack for wine printers
+case $(hostname) in
+  r407* )
+    cp -Rv /nwbox-nfs/files/wine-printers/Office2010 /home/nwboxuser/.PlayOnLinux/wineprefix
+  ;;
+  * )
+  ;;
+esac
+

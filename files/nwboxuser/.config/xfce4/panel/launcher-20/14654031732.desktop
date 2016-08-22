@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Name=Virtual Smartboard
+GenericName=Vector Graphics Editor
+X-GNOME-FullName=Inkscape Vector Graphics Editor
+Comment=Zeichnen auf dem Desktop
+Type=Application
+Categories=Graphics;VectorGraphics;GTK;
+MimeType=image/svg+xml;image/svg+xml-compressed;application/vnd.corel-draw;image/x-eps;application/illustrator;
+Exec=/nwbox/linuxapps/pylote/pylote.pyw
+TryExec=inkscape
+Terminal=false
+StartupNotify=false
+Icon=menulibre
+X-Ayatana-Desktop-Shortcuts=Drawing
+X-Ubuntu-Gettext-Domain=inkscape
+X-XFCE-Source=file:///usr/share/applications/inkscape.desktop
+
+Path=/nwbox/homes-m
+
+[Drawing Shortcut Group]
+Name=New Drawing
+Exec=inkscape
+TargetEnvironment=Unity

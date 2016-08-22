@@ -1,0 +1,176 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.17:$
+Arch:x86-gcc3:$
+
+[PLUGINS]
+mozplugger.so:$
+/usr/lib/mozilla/plugins/mozplugger.so:$
+1.14.5:$
+1382448987000:0:0:0:$
+MozPlugger version 1.14.5, maintained by Louis Bavoil and Peter Leese, a fork of plugger written by Fredrik H&uuml;binette.<br>For documentation on how to configure mozplugger, check the man page. (type <tt>man&nbsp;mozplugger</tt>) <table>  <tr><td>Configuration file:</td><td>/etc/mozpluggerrc</td></tr>  <tr><td>Helper binary:</td><td>mozplugger-helper</td></tr>  <tr><td>Controller binary:</td><td>mozplugger-controller</td></tr>  <tr><td>Link launcher binary:</td><td>mozplugger-linker</td></tr>  </table> <br clear=all>:$
+MozPlugger 1.14.5 handles QuickTime and Windows Media Player Plugin:$
+104
+0:video/mpeg:MPEG animation:mpeg,mpg,mpe:$
+1:video/x-mpeg:MPEG animation:mpeg,mpg,mpe:$
+2:video/x-mpeg2:MPEG2 animation:mpv2,mp2ve:$
+3:video/mp4:MPEG4 animation:mp4:$
+4:video/msvideo:AVI animation:avi:$
+5:video/x-msvideo:AVI animation:avi:$
+6:video/fli:FLI animation:fli,flc:$
+7:video/x-fli:FLI animation:fli,flc:$
+8:application/x-mplayer2:Windows Media video:*:$
+9:video/x-ms-asf:Windows Media video:asf,asx:$
+10:video/x-ms-wm:Windows Media video:wm:$
+11:video/x-ms-wmv:Windows Media video:wmv:$
+12:video/x-ms-wvx:Windows Media video:wvx:$
+13:video/x-ms-asf-plugin:Window Media video:*:$
+14:application/asx:Windows Media video:asx:$
+15:application/x-quicktimeplayer:Quicktime animation:mov:$
+16:image/x-macpaint:Quicktime animation:pntg,mov:$
+17:video/quicktime:Quicktime animation:mov,qt:$
+18:video/x-quicktime:Quicktime animation:mov,qt:$
+19:video/x-theora:OGG stream with video:ogg:$
+20:video/theora:OGG stream with video:ogg:$
+21:video/ogg:OGG stream with video:ogg:$
+22:video/x-ogg:OGG stream with video:ogm,ogv:$
+23:audio/mid:MIDI audio file:midi,mid:$
+24:audio/x-mid:MIDI audio file:midi,mid:$
+25:audio/midi:MIDI audio file:midi,mid:$
+26:audio/x-midi:MIDI audio file:midi,mid:$
+27:audio/mp3:MPEG audio:mp3:$
+28:audio/x-mp3:MPEG audio:mp3:$
+29:audio/mpeg2:MPEG audio:mp2:$
+30:audio/x-mpeg2:MPEG audio:mp2:$
+31:audio/mpeg3:MPEG audio:mp3:$
+32:audio/x-mpeg3:MPEG audio:mp3:$
+33:audio/mpeg:MPEG audio:mpa,abs,mpega:$
+34:audio/x-mpeg:MPEG audio:mpa,abs,mpega:$
+35:audio/x-ogg:OGG audio:ogg:$
+36:application/x-ogg:OGG audio:ogg:$
+37:application/ogg:OGG audio:ogg:$
+38:audio/x-flac:FLAC audio:flac:$
+39:application/x-flac:FLAC audio:flac:$
+40:audio/x-ms-wax:Windows Media Audio:wax:$
+41:audio/x-ms-wma:Windows Media Audio:wma:$
+42:image/sun-raster:SUN raster image:rs:$
+43:image/x-sun-raster:SUN raster image:rs:$
+44:image/x-rgb:RGB Image:rgb:$
+45:image/x-portable-pixmap:PPM Image:ppm:$
+46:image/x-portable-graymap:PGM Image:pgm:$
+47:image/x-portable-bitmap:PBM Image:pbm:$
+48:image/x-portable-anymap:PBM Image:pnm:$
+49:image/tiff:TIFF image:tiff,tif:$
+50:image/x-tiff:TIFF image:tiff,tif:$
+51:image/x-xcf:Gimp Image:xcf:$
+52:image/xcf:Gimp Image:xcf:$
+53:application/x-gimp:Gimp Image:xcf:$
+54:application/gimp:Gimp Image:xcf:$
+55:application/photoshop:PhotoShop Image:psd:$
+56:application/x-photoshop:PhotoShop Image:psd:$
+57:application/pdf:PDF file:pdf:$
+58:application/x-pdf:PDF file:pdf:$
+59:text/pdf:PDF file:pdf:$
+60:text/x-pdf:PDF file:pdf:$
+61:application/x-dvi:DVI file:dvi:$
+62:application/x-postscript:PostScript file:ps:$
+63:application/postscript:PostScript file:ps:$
+64:application/x-rtf:Rich Text Format:rtf:$
+65:application/rtf:Rich Text Format:rtf:$
+66:text/rtf:Rich Text Format:rtf:$
+67:application/x-msword:Microsoft Word Document:doc,dot:$
+68:application/msword:Microsoft Word Document:doc,dot:$
+69:application/vnd.ms-excel:Microsoft Excel Document:xls,xlb:$
+70:application/vnd.sun.xml.writer:OpenOffice Writer 6.0 documents:sxw:$
+71:application/so7_vnd.sun.xml.writer:OpenOffice Writer 7.0 documents:sxw:$
+72:application/vnd.sun.xml.writer.template:OpenOffice Writer 6.0 templates:stw:$
+73:application/vnd.sun.xml.writer.global:OpenOffice Writer 6.0 global documents:sxg:$
+74:application/vnd.stardivision.writer:StarWriter 5.x documents:sdw:$
+75:application/vnd.stardivision.writer-global:StarWriter 5.x global documents:sgl:$
+76:application/x-starwriter:StarWriter 4.x documents:sdw:$
+77:application/vnd.sun.xml.calc:OpenOffice Calc 6.0 spreadsheets:sxc:$
+78:application/so7_vnd.sun.xml.calc:OpenOffice Calc 7.0 spreadsheets:sxc:$
+79:application/vnd.sun.xml.calc.template:OpenOffice Calc 6.0 templates:stc:$
+80:application/vnd.stardivision.calc:StarCalc 5.x spreadsheets:sdc:$
+81:application/x-starcalc:StarCalc 4.x spreadsheets:sdc:$
+82:application/vnd.lotus-1-2-3: Lotus 1-2-3 Document: 123, wk1:$
+83:application/vnd.sun.xml.draw:OpenOffice Draw 6.0 documents:sxd:$
+84:application/so7_vnd.sun.xml.draw:StarOffice Draw 7.0 documents:sxc:$
+85:application/vnd.sun.xml.draw.template:OpenOffice Draw 6.0 templates:std:$
+86:application/vnd.stardivision.draw:StarDraw 5.x documents:sda:$
+87:application/x-stardraw:StarDraw 4.x documents:sda:$
+88:application/vnd.sun.xml.impress:OpenOffice Impress 6.0 presentations:sxi:$
+89:application/so7_vnd.sun.xml.impress:StarOffice 7.0 Impress presentations:sxi:$
+90:application/vnd.sun.xml.impress.template:OpenOffice Impress 6.0 templates:sti:$
+91:application/vnd.stardivision.impress:StarImpress 5.x presentations:sdd:$
+92:application/vnd.stardivision.impress-packed:StarImpress Packed 5.x files:sdp:$
+93:application/x-starimpress:StarImpress 4.x presentations:sdd:$
+94:application/vnd.ms-powerpoint:PowerPoint Slideshow:ppt:$
+95:application/mspowerpoint:PowerPoint Slideshow:ppt,ppz,pps,pot:$
+96:application/vnd.sun.xml.math:OpenOffice Math 6.0 documents:sxm:$
+97:application/so7_vnd.sun.xml.math:StarOffice 7.0 Math documents:sxm:$
+98:application/vnd.stardivision.math:StarMath 5.x documents:smf:$
+99:application/x-starmath:StarMath 4.x documents:smf:$
+100:application/vnd.oasis.opendocument.text:OASIS OpenDocument Text:odt,ODT:$
+101:application/vnd.oasis.opendocument.spreadsheet:OASIS OpenDocument SpreadSheet:ods,ODS:$
+102:application/vnd.oasis.opendocument.presentation:OASIS OpenDocument Presentation:odp,ODP:$
+103:application/bge:Blender Game Engine:blend:$
+libfreshwrapper-flashplayer.so:$
+/usr/lib/mozilla/plugins/libfreshwrapper-flashplayer.so:$
+13.1.2.3:$
+1449658238000:0:0:0:$
+Shockwave Flash 13.1 r2:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+libnpjp2.so:$
+/usr/lib/jvm/java-9-oracle/lib/i386/libnpjp2.so:$
+12.0.0.0:$
+1449831785000:0:0:0:$
+Next Generation Java Plug-in 12.0.0.0 for Mozilla browsers:$
+Java(TM) Plug-in 12.0.0.0:$
+38
+0:application/x-java-vm:Java™ Plug-in::$
+1:application/x-java-applet:Java™ Plug-in Applet::$
+2:application/x-java-bean:Java™ Plug-in JavaBeans::$
+3:application/x-java-applet;version=1.1:Java™ Plug-in::$
+4:application/x-java-bean;version=1.1:Java™ Plug-in::$
+5:application/x-java-applet;version=1.1.1:Java™ Plug-in::$
+6:application/x-java-bean;version=1.1.1:Java™ Plug-in::$
+7:application/x-java-applet;version=1.1.2:Java™ Plug-in::$
+8:application/x-java-bean;version=1.1.2:Java™ Plug-in::$
+9:application/x-java-applet;version=1.1.3:Java™ Plug-in::$
+10:application/x-java-bean;version=1.1.3:Java™ Plug-in::$
+11:application/x-java-applet;version=1.2:Java™ Plug-in::$
+12:application/x-java-bean;version=1.2:Java™ Plug-in::$
+13:application/x-java-applet;version=1.2.1:Java™ Plug-in::$
+14:application/x-java-bean;version=1.2.1:Java™ Plug-in::$
+15:application/x-java-applet;version=1.2.2:Java™ Plug-in::$
+16:application/x-java-bean;version=1.2.2:Java™ Plug-in::$
+17:application/x-java-applet;version=1.3:Java™ Plug-in::$
+18:application/x-java-bean;version=1.3:Java™ Plug-in::$
+19:application/x-java-applet;version=1.3.1:Java™ Plug-in::$
+20:application/x-java-bean;version=1.3.1:Java™ Plug-in::$
+21:application/x-java-applet;version=1.4:Java™ Plug-in::$
+22:application/x-java-bean;version=1.4:Java™ Plug-in::$
+23:application/x-java-applet;version=1.4.1:Java™ Plug-in::$
+24:application/x-java-bean;version=1.4.1:Java™ Plug-in::$
+25:application/x-java-applet;version=1.4.2:Java™ Plug-in::$
+26:application/x-java-bean;version=1.4.2:Java™ Plug-in::$
+27:application/x-java-applet;version=1.5:Java™ Plug-in::$
+28:application/x-java-bean;version=1.5:Java™ Plug-in::$
+29:application/x-java-applet;version=1.6:Java™ Plug-in::$
+30:application/x-java-bean;version=1.6:Java™ Plug-in::$
+31:application/x-java-applet;version=1.7:Java™ Plug-in::$
+32:application/x-java-bean;version=1.7:Java™ Plug-in::$
+33:application/x-java-applet;version=1.8:Java™ Plug-in::$
+34:application/x-java-bean;version=1.8:Java™ Plug-in::$
+35:application/x-java-applet;deploy=12.0.0.0:Java™ Plug-in::$
+36:application/x-java-applet;javafx=9-ea:Java™ Plug-in::$
+37:application/x-java-vm-npruntime:Java™ Plug-in::$
+
+[INVALID]
+/usr/lib/mozilla/plugins/flashplugin-alternative.so:$
+0:$

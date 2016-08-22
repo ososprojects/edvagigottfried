@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#if [ -e /opt/Start/$1 ]; then
+cp /opt/Start/$1 /opt/Start/winstart.bat
+vboxmanage startvm WinXP-TI 
+

@@ -1,0 +1,7 @@
+[Default Applications]
+video/mpeg=vlc.desktop
+video/x-ms-wmv=vlc.desktop
+
+[Added Associations]
+video/mpeg=vlc.desktop;
+video/x-ms-wmv=vlc.desktop;

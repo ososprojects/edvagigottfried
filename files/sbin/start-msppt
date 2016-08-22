@@ -1,0 +1,8 @@
+#!/bin/sh
+
+notify-send 'MS Powerpoint wird gestartet.
+Bitte warte ein paar Sekunden.' -t 7000 -i application-vnd.ms-powerpoint
+playonlinux --run "Microsoft Powerpoint 2010"
+cp -p /home/nwboxuser/.fontconfig /opt/nwboxuser
+mkdir -p /opt/nwboxuser/.cache
+cp -Rp /home/nwboxuser/.cache/fontconfig /opt/nwboxuser/.cache

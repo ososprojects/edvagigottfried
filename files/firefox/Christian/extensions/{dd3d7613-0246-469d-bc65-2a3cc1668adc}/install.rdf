@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+    <Description about="urn:mozilla:install-manifest">
+
+        <em:name>Block site</em:name>
+        
+        <em:description>Automagically blocks websites of your choice. Ideal for procrastination problems!</em:description>
+        <em:type>2</em:type>
+        <!--<em:name>Block site</em:name>-->
+        <em:id>{dd3d7613-0246-469d-bc65-2a3cc1668adc}</em:id>
+        <!--<em:id>blocksite</em:id>-->
+        <em:version>1.1.8.1-signed</em:version>
+        <!--        <em:description>Automagically blocks websites of your choice. Ideal for procrastination problems!</em:description>-->
+        <em:creator>Wips.com</em:creator>
+        <em:contributor>Erik van Kempen &lt;erik@electronical.nl&gt;</em:contributor>
+        <em:contributor>Mike Harris</em:contributor>
+        <em:contributor>Wladimir Palant</em:contributor>
+        <em:contributor>Sami Tolvanen</em:contributor>
+        <em:contributor>Didier Stevens</em:contributor>
+        <em:contributor>Noel Briggs</em:contributor>
+        <em:contributor>Bram Neijt</em:contributor>
+        <em:optionsURL>chrome://a00112-wips/content/BlockSitePrefs.xul</em:optionsURL>
+        <em:iconURL>chrome://a00112-wips/content/img/icon32.png</em:iconURL>
+        <em:homepageURL>http://www.wips.com</em:homepageURL>
+        <em:unpack>true</em:unpack>
+                
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>2.0</em:minVersion>
+                <em:maxVersion>17.*</em:maxVersion>
+            </Description>
+        </em:targetApplication> 
+
+        
+    </Description>
+
+</RDF>

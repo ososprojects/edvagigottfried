@@ -1,0 +1,12 @@
+#!/bin/sh
+
+sync
+umount -l /home/nwboxuser
+
+rm -Rf /nwboxuser-aufs/*
+rm -Rf /nwboxuser-aufs/.*
+# mkdir -p /nwboxuser-aufs
+chown nwboxuser:nwboxuser /nwboxuser-aufs
+chmod 777 /nwboxuser-aufs
+
+mount -t aufs -o dirs=/nwboxuser-aufs:/opt/nwboxuser.org -o udba=reval none /home/nwboxuser

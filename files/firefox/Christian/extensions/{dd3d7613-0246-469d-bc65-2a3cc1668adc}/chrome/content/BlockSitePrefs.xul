@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css" ?>
+<?xml-stylesheet href="chrome://a00112-wips/content/tooltip.css" type="text/css" ?>
+<!DOCTYPE window SYSTEM "chrome://a00112-wips/locale/BlockSite.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        flex="1"
+        title="&BlockSite.preferences;"
+        onload="BlockSitePrefs.readPrefs()"
+        ondialogaccept="BlockSitePrefs.storePrefs()">
+    
+    <script type="application/x-javascript">	
+        if(!WIPS) var WIPS = {};
+        if(!WIPS.a00112) WIPS.a00112 = {};
+    </script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/md5.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/hex_sha256.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/authentication.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/BlockSitePrefs.js"></script>
+    
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="translate-strings-a00112" src="chrome://a00112-wips/locale/BlockSite.properties"/>
+    </stringbundleset>
+    
+    <vbox>
+        <groupbox>
+            
+            <caption label="&BlockSite.enableFunctions;" />
+            <hbox>
+                <checkbox id="blockSiteCheckbox" label="&BlockSite.enableBlockSite;" />
+                <checkbox id="blockSiteCheckboxWarning" label="&BlockSite.enableWarning;" />
+                <!--<checkbox id="autoCloseWarning" label="&BlockSite.autoCloseWarning;" />-->
+                <checkbox id="blockSiteCheckboxRemoveLinks" label="&BlockSite.removeLinks;" />
+                <radiogroup id="listtypeRadiogroup" onclick="BlockSitePrefs.changeListType()">
+                    <hbox>
+                        <radio id="blacklistRadio" label="&BlockSite.blacklist;" />
+                        <radio id="whitelistRadio" label="&BlockSite.whitelist;" />
+                    </hbox>
+                </radiogroup>
+            </hbox>
+            <hbox align="start">
+            <button label="&BlockSite.advanced;"  oncommand="window.open('chrome://a00112-wips/content/BlockSiteAdvanced.xul', '', 'chrome,centerscreen')"/>
+            </hbox>
+        </groupbox>
+        <groupbox>
+            <caption label="&BlockSite.authentication;" />
+            <vbox>
+                <checkbox id="blockSiteCheckboxAuthentication" label="&BlockSite.enableAuthentication;" />
+                <hbox align="center">
+                    <label value="&BlockSite.password;" control="blockSitePassword" />
+                    <textbox type="password" id="blockSitePassword" />
+                    
+                    <label id="blocksiteMessage" style="margin-left:200px;color:red" value=""/>
+                </hbox>
+                <label id="authMessage" value="" style="color:red"/>
+            </vbox>
+        </groupbox>
+        <groupbox>
+            <caption id="listtypeCaption" label="&BlockSite.locations;" />
+            <hbox>
+                <vbox id="BlackVbox" flex="1">
+                    
+                    <listbox id="BlackListWebsites">
+                        <listcols>
+                            <listcol flex="1" />
+                        </listcols>
+                        <listhead>
+                            <listheader label="&BlockSite.blacklistLocations;" width="70" />
+                            <listheader label="&BlockSite.description;" width="200" />
+                        </listhead>
+						
+                        <!-- Items -->						
+                    </listbox>
+                </vbox>
+                <vbox id="WhiteVbox" flex="1">  
+                    <listbox id="WhiteListWebsites">
+                        <listcols>
+                            <listcol flex="1" />
+                        </listcols>
+                        <listhead>
+                            <listheader label="&BlockSite.whitelistLocations;" width="70"/>
+                            <listheader label="&BlockSite.description;" width="200" />
+                        </listhead>
+						
+                        <!-- Items -->						
+                    </listbox>
+                    
+                </vbox>
+                <vbox>
+                    <button label="&BlockSite.add;" oncommand="BlockSitePrefs.openAddPage()"/>
+                    <button label="&BlockSite.edit;" oncommand="window.open('chrome://a00112-wips/content/BlockSiteEditWebsite.xul', '', 'chrome,centerscreen')"/>
+                    <button label="&BlockSite.remove;" oncommand="BlockSitePrefs.removeLocation()" />
+                    <separator />
+                    <button label="&BlockSite.clearList;" oncommand="BlockSitePrefs.removeAllLocations()" />
+                    <button label="&BlockSite.import;" oncommand="BlockSitePrefs.importList()" />
+                    <button label="&BlockSite.export;" oncommand="BlockSitePrefs.exportList()" />
+                    <spacer flex="1" />
+                </vbox>
+            </hbox>
+            
+        </groupbox>
+        <hbox align="center" pack="center">
+            <image src="chrome://a00112-wips/content/img/logo_settings.png" />
+            
+        </hbox>
+        <hbox align="center" pack="center">
+            <text value="&BlockSite.usage;" style="cursor: hand; font-weight: bold; color: blue; text-decoration: underline;" onclick="window.open('chrome://a00112-wips/content/Usage.xul', '', 'chrome,centerscreen')"/>
+            
+        </hbox>
+        <hbox align="center" pack="center">
+            <checkbox id="stats" label="&BlockSite.BlockSiteStats;" prefstring="extensions.wips.stats_permission.a00112" />
+            <image class="tooltip" src="chrome://a00112-wips/content/img/question_mark14.png" tooltiptext="&BlockSite.statsTitle;"/>
+        </hbox>
+        
+    </vbox>
+</dialog>

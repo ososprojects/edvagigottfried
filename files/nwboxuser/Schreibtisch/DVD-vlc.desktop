@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DVD abspielen (mit VLC)
+Comment=DVD einlegen, dann mit VLC abspielen
+Exec=vlc /dev/sr0
+Icon=applications-multimedia
+Path=
+Terminal=false
+StartupNotify=true

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<overlay id="BlockWebsiteOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="application/x-javascript">	
+        if(!WIPS) var WIPS = {};
+        if(!WIPS.a00112) WIPS.a00112 = {};
+    </script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/BlockSiteOverlay.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/BlockSitePrefs.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/convert2RegExp.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/BlockSite.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/config.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/config_special.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/wips.js"></script>
+    <script type="application/x-javascript" src="chrome://a00112-wips/content/wipstats.js"></script>
+    
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="a00112-wips.locale" src="chrome://a00112-wips/locale/BlockSite.properties"/>
+    </stringbundleset>
+	
+        
+    <popup id="contentAreaContextMenu">
+        <menuitem  id="blocksite-firebirdcontextmenuitem" label="Block This Site"
+                       class='menuitem-iconic'
+                       image='chrome://a00112-wips/content/img/context-icon.png'
+                       onclick="BlockSite.AddPage(window.content.location.href);"
+        >
+                   
+        </menuitem>
+        
+            
+    </popup>
+            
+    <!--<menupopup id="menu_ToolsPopup">
+                                  		<menuitem 
+                                                                 			id="toolsBlockWebsite"
+                                                                 			oncommand="WIPS.a00112.openBlockSitePrefs()" 
+                                                                 			label="BlockSite"
+                                                                 			insertafter="devToolsSeparator" 
+                                                                 			tooltiptext="Open BlockSite" />
+   	</menupopup>-->
+</overlay>

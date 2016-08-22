@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reboot
+Comment=PC neu starten
+Exec=/usr/local/sbin/dt-reboot10.sh
+Icon=system-restart-panel
+Path=
+Terminal=false
+StartupNotify=false

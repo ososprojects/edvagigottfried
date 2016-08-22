@@ -1,0 +1,48 @@
+<!ENTITY  BlockSite.preferences		"BlockSite Voorkeuren">
+<!ENTITY  BlockSite.enableFunctions	"Functies inschakelen">
+<!ENTITY  BlockSite.enableBlockSite	"BlockSite inschakelen">
+<!ENTITY  BlockSite.enableWarning	"Waarschuwingen inschakelen">
+<!ENTITY  BlockSite.autoCloseWarning	"Autoclose warning messages">
+<!ENTITY  BlockSite.removeLinks		"Linkverwijdering inschakelen">
+<!ENTITY  BlockSite.authentication	"Wachtwoordbeveiliging">
+<!ENTITY  BlockSite.enableAuthentication "Wachtwoordbeveiliging inschakelen">
+<!ENTITY  BlockSite.advanced "Advanced function">
+<!ENTITY  BlockSite.blockIncoming "Block Incoming traffic">
+<!ENTITY  BlockSite.blockOutgoing "Block Outgoing traffic">
+<!ENTITY  BlockSite.password		"Nieuw wachtwoord">
+<!ENTITY  BlockSite.blacklist		"Zwarte lijst">
+<!ENTITY  BlockSite.whitelist		"Witte lijst">
+<!ENTITY  BlockSite.blacklistLocations		"Blacklist Locaties">
+<!ENTITY  BlockSite.whitelistLocations		"Whitelist Locaties">
+<!ENTITY  BlockSite.locations		"Locaties">
+<!ENTITY  BlockSite.description			"Description">
+<!ENTITY  BlockSite.addPage			"Location">
+<!ENTITY  BlockSite.add			"Toevoegen">
+<!ENTITY  BlockSite.edit		"Bewerken">
+<!ENTITY  BlockSite.remove		"Verwijderen">
+<!ENTITY  BlockSite.clearList		"Lijst leegmaken">
+<!ENTITY  BlockSite.import		"Importeren">
+<!ENTITY  BlockSite.export		"Exporteren">
+
+<!ENTITY BlockSite.statsTitle 	"This helps us improve the application. All statistics are strictly anonymous. Don't worry.">
+<!ENTITY BlockSite.BlockSiteStats 	"Allow sending anonymous statistics">
+<!ENTITY  BlockSite.usage  "Leer hoe u BlockSite gebruiken, klik hier">
+<!ENTITY  blocksiteAbout.Title  "Leer hoe u BlockSite gebruiken, klik hier.">
+<!ENTITY  blocksiteAbout.Name  "Leer hoe u BlockSite gebruiken">
+<!ENTITY  blocksiteAbout.CreatedBy  "Gemaakt door">
+<!ENTITY  blocksiteAbout.Contributor  "Medewerkers">
+<!ENTITY  blocksiteAbout.HomePage  "Home page">
+<!ENTITY  blocksiteAbout.Feedback  "Feedback">
+<!ENTITY  blocksiteAbout.General  "General usage">
+<!ENTITY  blocksiteAbout.GeneralText  "You can add and/or remove websites, you don't want to visit ever again, via the BlockSite Preferences. You can open this window by clicking on the options button of BlockSite in Tools, Add-ons menu, or by clicking on the Preferences item in the context menu of the extension in the Extension Manager.">
+<!ENTITY  blocksiteAbout.Wildcards  "Wildcards">
+<!ENTITY  blocksiteAbout.WildcardsText  "You can block whole ranges of websites by using the wildcard symbol (*): If you want to block, for example, a lot of Microsoft websites, you can use the following line: '*.microsoft.*' and 'microsoft.*' The * symbol indicates that there may be zero or more random characters at that place. You can also block every site that contains, for example 'casino' in its domain. To do that you can write the following line: '*casino*' ">
+<!ENTITY  blocksiteAbout.ImportExport  "Import/Export">
+<!ENTITY  blocksiteAbout.ImportExportText  "You can import and export lists of locations via the 'Import' and 'Export' buttons in the 'BlockSite Preferences' window. The first line in the file you want to import has to be the '[BlockSite]' in order to be read succesfully. So your file may look like:">
+<!ENTITY  blocksiteAbout.BWList  "Black and White list">
+<!ENTITY  blocksiteAbout.BWListText  "This is new feature, now you can have both Black and White list. You can switch between them with radio button 'Blacklist' or 'Whitelist.'">
+<!ENTITY  blocksiteAbout.Password  "Password protection">
+<!ENTITY  blocksiteAbout.PasswordText  "If you lost your password: go to about:config (type about:config in the location bar and press enter) and reset the BlockSite.authenticate entry or clear the BlockSite.password entry.">
+<!ENTITY  blocksiteAbout.About  "About the developer">
+<!ENTITY  blocksiteAbout.AboutText  "Wips.com is a team of developer enthusiastic to Chrome Extensions and Mozilla Add-ons. We love developing extensions for users and we are happy to hear new ideas and any feedback from you. That is why you can write us on info@wips.com anytime and be sure that we will reply. Stay tuned for new extensions. We are planning to make a lot of them!">
+

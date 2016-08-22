@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body{
+    font-family:arial, tahoma, verdana, sans-serif;
+    font-size:14px;
+    line-height:20px;
+    color:#010101;
+    text-align:left;
+    background:#ffffff url('chrome://a00112-wips/content/img/bodybg.jpg') no-repeat center top;
+}
+
+a{
+    text-decoration:none;
+    color:#010101;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.clear{
+    display: block;
+    clear:both;
+    font-size:0;
+    height:0;
+    line-height:0;
+}
+
+.none{
+    display:none;
+}
+
+.blue{
+    color:#4FCAF3;
+}
+
+#hlavni{
+    width:900px;
+    margin:0 auto;
+    position: relative;
+}
+
+#hlavni h1{
+    display:block;
+    position:absolute;
+    left:495px;
+    top:24px;
+    line-height:42px;
+    font-weight: normal;
+    font-size:42px;
+    letter-spacing:-1px;
+}
+
+#hlavni .logo{
+    display:block;
+    position:absolute;
+    left:30px;
+    top:28px;
+}
+
+#obsah{
+    padding:130px 0 0 0;
+}
+
+#obsah .text p{
+    padding:0 0 15px 0;
+    font-size:16px;
+    line-height:30px;
+}
+
+#obsah .buttons{
+    padding:13px 0 0 0;
+}
+
+#obsah .buttons .ok{
+    display: block;
+    float: left;
+    width:352px;
+    height:97px;
+    line-height:97px;
+    cursor:pointer;
+    background:url('chrome://a00112-wips/content/img/agree_continue.png') no-repeat 0 0;
+}
+
+#obsah .buttons .ok:hover{
+    background-position:0 -97px;
+}
+
+#obsah .buttons .no{
+    display: block;
+    float: left;
+    margin:16px 0 0 20px;
+    width:231px;
+    height:64px;
+    line-height:64px;
+    cursor:pointer;
+    background:url('chrome://a00112-wips/content/img/dont_help.png') no-repeat 0 0;
+}
+
+#obsah .buttons .no:hover{
+    background-position:0 -64px;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///mnt/Microschrott/SW_DVD5_Office_Professional_Plus_2010w_SP1_W32_German_CORE_MLF_X17-76790.ISO" added="2016-08-01T17:55:32Z" modified="2016-08-01T17:55:32Z" visited="2016-08-01T17:55:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-cd-image"/>
+        <bookmark:applications>
+          <bookmark:application name="mainwindow.py" exec="&apos;mainwindow.py %u&apos;" modified="2016-08-01T17:55:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///ww/setup.exe" added="2016-08-01T17:59:17Z" modified="2016-08-01T18:25:22Z" visited="2016-08-01T17:59:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="mainwindow.py" exec="&apos;mainwindow.py %u&apos;" modified="2016-08-01T18:25:22Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Orte/4.%20Videos%20(am%20Server)/EDV/Fraktale.flv" added="2016-08-11T11:21:33Z" modified="2016-08-11T11:21:33Z" visited="2016-08-11T11:21:33Z">
+    <title>Fraktale.flv</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-flv"/>
+        <bookmark:groups>
+          <bookmark:group>Totem</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Videos" exec="&apos;totem %u&apos;" modified="2016-08-11T11:21:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Orte/4.%20Videos%20(am%20Server)/Antike/Athen-Die%20Herrschaft%20des%20Volkes.mpg" added="2016-08-11T11:21:48Z" modified="2016-08-11T11:21:48Z" visited="2016-08-11T11:21:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="parole" exec="&apos;parole %u&apos;" modified="2016-08-11T11:21:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

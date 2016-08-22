@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Büroprogramme
+GenericName=Ripper X
+Comment=Textverarbeitung, Tabellenkalkulation, Mindmaps, ...
+Type=Application
+Exec=dt-buero.sh
+Icon=ooo-writer
+Categories=AudioVideo;Audio;
+X-XFCE-Source=file:///usr/share/applications/ripperx.desktop
+Path=
+Terminal=false
+StartupNotify=false

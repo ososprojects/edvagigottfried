@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Antike
+Comment=
+Exec=pcmanfm --profile=faecher
+Icon=
+Path=/nwbox/Faecher/Antike
+Terminal=false
+StartupNotify=false

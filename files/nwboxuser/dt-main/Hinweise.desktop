@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Aktuelle Hinweise
+Comment=Aktuelle Hinweise
+Exec=evince "/nwbox/manuals/4. Hinweise.pdf"
+Icon=emblem-important
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mount > /111/nix.log
+
+
+exit 0

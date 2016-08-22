@@ -1,0 +1,6 @@
+#! /bin/sh
+
+sudo /usr/local/sbin/dt-reset.sudo
+xfdesktop --reload
+
+exit 0

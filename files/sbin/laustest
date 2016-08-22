@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo .
+ls /var/log/laus
+echo .
+systemctl status laus
+echo .
+ps aux|grep apt-
+echo .
+ps aux|grep cp
+

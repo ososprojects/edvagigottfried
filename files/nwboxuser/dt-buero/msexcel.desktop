@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+# Icon=/home/nwboxuser/.PlayOnLinux/icones/full_size/Microsoft Excel 2010
+Icon=application-vnd.ms-excel
+Type=Application
+Categories=Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases;
+# Exec=playonlinux --run "Microsoft Excel 2010"
+Exec=start-msexcel
+MimeType=application/vnd.oasis.opendocument.database;application/vnd.sun.xml.base;
+Name=Excel 2010
+GenericName=Excel 2010
+Comment=MS Excel 2010
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Data;SQL;
+InitialPreference=5

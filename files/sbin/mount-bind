@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sync
+umount -l /home/nwboxuser
+mount --bind /opt/nwboxuser.org /home/nwboxuser

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir -p /home/nwboxuser/MeinHome
+mount.cifs //nwbox/homes /home/nwboxuser/MeinHome -o nobrl,rw,username="$1"
+

@@ -1,0 +1,319 @@
+Auf Branch master
+Ihr Branch ist auf dem selben Stand wie 'origin/master'.
+
+Änderungen, die nicht zum Commit vorgemerkt sind:
+  (benutzen Sie "git add/rm <Datei>...", um die Änderungen zum Commit vorzumerken)
+  (benutzen Sie "git checkout -- <Datei>...", um die Änderungen im Arbeitsverzeichnis zu verwerfen)
+
+	gelöscht:               laus/scriptsForClasses/APP/100-CONFIG-SYSTEM.txt
+	gelöscht:               laus/scriptsForClasses/APP/110-hideRecoveryInGrub.sh
+	gelöscht:               laus/scriptsForClasses/APP/120-setShutdownTime.sh
+	gelöscht:               laus/scriptsForClasses/APP/130-createNFSClient.sh
+	gelöscht:               laus/scriptsForClasses/APP/140-installLightdmScriptsSkeleton.sh
+	gelöscht:               laus/scriptsForClasses/APP/200-CONFIG-SYSTEM-GSETTINGS.txt
+	gelöscht:               laus/scriptsForClasses/APP/210-addUnityGsettingsNoLockout.sh
+	gelöscht:               laus/scriptsForClasses/APP/220-addUnityGsettingsLocalMenusAlwaysVisible.sh
+	gelöscht:               laus/scriptsForClasses/APP/300-CONFIG-SYSTEM-USER.txt
+	gelöscht:               laus/scriptsForClasses/APP/310-createStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/APP/320-installRestoreStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/APP/330-setUmaskTo002.sh
+	gelöscht:               laus/scriptsForClasses/APP/400-CONFIG-SYSTEM-USER-LDAP.txt
+	gelöscht:               laus/scriptsForClasses/APP/410-createLDAPClient.sh
+	gelöscht:               laus/scriptsForClasses/APP/420-manipulatePAMStackForLDAP.sh
+	gelöscht:               laus/scriptsForClasses/APP/430-setDefaultGroupForUser.sh
+	gelöscht:               laus/scriptsForClasses/APP/440-configLightdmForLDAP.sh
+	gelöscht:               laus/scriptsForClasses/APP/450-addChangeSMBPasswordScript.sh
+	gelöscht:               laus/scriptsForClasses/APP/460-installRemoveLDAPLoginHistory.sh
+	gelöscht:               laus/scriptsForClasses/APP/500-CONFIG-TESTEE-ENVIROMENT.txt
+	gelöscht:               laus/scriptsForClasses/APP/510-blockWWWForTestees.sh
+	gelöscht:               laus/scriptsForClasses/APP/520-blockEnglishDictionaryForTestees.sh
+	gelöscht:               laus/scriptsForClasses/APP/530-makeDesktopLinkForTestees.sh
+	gelöscht:               laus/scriptsForClasses/APP/900-FINISH-INSTALLATION.txt
+	gelöscht:               laus/scriptsForClasses/APP/999-finishCommand.sh
+	gelöscht:               laus/scriptsForClasses/APP/files/add_mkhomedir
+	gelöscht:               laus/scriptsForClasses/APP/files/auto.master
+	gelöscht:               laus/scriptsForClasses/APP/files/auto.pupils
+	gelöscht:               laus/scriptsForClasses/APP/files/auto.shares
+	gelöscht:               laus/scriptsForClasses/APP/files/auto.teachers
+	gelöscht:               laus/scriptsForClasses/APP/files/blockWWWForTestees.sh
+	gelöscht:               laus/scriptsForClasses/APP/files/changepasswd
+	gelöscht:               laus/scriptsForClasses/APP/files/ldap.conf
+	gelöscht:               laus/scriptsForClasses/APP/files/makeDesktopLinkForTestees.sh
+	gelöscht:               laus/scriptsForClasses/APP/files/nsswitch.conf
+	gelöscht:               laus/scriptsForClasses/APP/files/remove-ldap-login-history.service
+	gelöscht:               laus/scriptsForClasses/APP/files/remove-ldap-login-history.sh
+	gelöscht:               laus/scriptsForClasses/APP/files/restore-standard-user.service
+	gelöscht:               laus/scriptsForClasses/APP/files/restore-standard-user.sh
+	gelöscht:               laus/scriptsForClasses/APP/files/shutDownAt22Clock
+	gelöscht:               laus/scriptsForClasses/APP/todo/220-addUnityGsettingsNoRemoteSearch.sh
+	gelöscht:               laus/scriptsForClasses/APP/todo/220-showWorkspaceSwitcher.sh
+	gelöscht:               laus/scriptsForClasses/BEAMER/010-installCloneModus.sh
+	gelöscht:               laus/scriptsForClasses/BEAMER/files/clone
+	gelöscht:               laus/scriptsForClasses/BEAMER/files/clone-settings
+	gelöscht:               laus/scriptsForClasses/MATURA/PRINTER/010-install-Printer-Canon03-Canon02.sh
+	gelöscht:               laus/scriptsForClasses/MATURA/VORBEREITUNG/010-createMaturaUser.sh
+	gelöscht:               laus/scriptsForClasses/MATURA/VORBEREITUNG/020-deleteLDAP.sh
+	gelöscht:               laus/scriptsForClasses/R002/010-installPrinter-Brother_HL-6050D_DN.sh
+	gelöscht:               laus/scriptsForClasses/R003/010-installPrinter-Lexmark-T644.sh
+	gelöscht:               laus/scriptsForClasses/R005/010-installPrinter-Brother_HL-7050.sh
+	gelöscht:               laus/scriptsForClasses/R107/050-add_configprinter_to_configwinontop.sh
+	gelöscht:               laus/scriptsForClasses/R107/files/configprinter.KonfZi-TS.cmd
+	gelöscht:               laus/scriptsForClasses/R115/010-installPrinter-HP_Laserjet_P2055dn.sh
+	gelöscht:               laus/scriptsForClasses/R115/011-installPrinter-CanoniR-ADV_C7260.sh
+	gelöscht:               laus/scriptsForClasses/R115/020-changeShutdownTimeTo23.sh
+	gelöscht:               laus/scriptsForClasses/R115/050-add_configprinter_to_configwinontop.sh
+	gelöscht:               laus/scriptsForClasses/R115/files/configprinter.KonfZi-AS.cmd
+	gelöscht:               laus/scriptsForClasses/R314/010-installPrinter-Lexmark_T652.sh
+	gelöscht:               laus/scriptsForClasses/R314/890-blockEnglishDictionaryForTestees.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/010-correctHostname
+	gelöscht:               laus/scriptsForClasses/SAVE/010-installPrinter-HP_LaserJet500color_M551.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/020-setDomainForIDMAPD.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/160-updateVM.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2012.02.20-installscratch.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2012.06.01.activateLibDvdRead4.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2012.06.18.installGimp.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2012.09.24-update_firefox_bookmarks.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2012.10.03-remove-Mozilla-Libreoffice-Plugin.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2012.10.30-installGimp.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/2013.05.12-install_greenfoot.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/900-installVirualbox.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/010-installCloneModus.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/README.txt
+	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/files/clone
+	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/files/clone-settings
+	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/files/clone_in_background
+	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/old/lightdm.conf
+	gelöscht:               laus/scriptsForClasses/SAVE/CUPSSERVER/010-setCupsServer.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/010-changeFstabFromUUIDtoDevice.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/010-hideRecoveryInGrub.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/021-changeGrubFromUUIDtoDevice.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/030-setAptCacher.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/040-createNFSClient.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/050-createStandardUserAndDomainUsersGroup.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/060-installRestoreStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/070-setShutdownTime.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/080-setCupsServer.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/090-createLDAPClient.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/100-addLDAPLoginToLightdm.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/110-addLDAPUsersToLocalGroups.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/900-installPackages.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/910-installEclipseAndPlugins.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/NOCUPSSERVER/010-deleteCupsServer.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/R001/001-installR001Printer.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/R001/BEAMER_1024x768/010-setMonitorforUser.sh
+	gelöscht:               laus/scriptsForClasses/SAVE/R001/BEAMER_1024x768/files/monitors.xml
+	gelöscht:               laus/scriptsForClasses/SAVE/laus-server.old.sh
+	gelöscht:               laus/scriptsForClasses/STANDALONE/100-CREATE_AND_CONFIG-SYSTEM-USER.txt
+	gelöscht:               laus/scriptsForClasses/STANDALONE/110-createStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/STANDALONE/200-REMOVE_APT-CACHER_AND_LAUS.txt
+	gelöscht:               laus/scriptsForClasses/STANDALONE/210-removeAPTCacher.sh
+	gelöscht:               laus/scriptsForClasses/STANDALONE/220-stopLausClient.sh
+	gelöscht:               laus/scriptsForClasses/STANDALONE/999-finishCommand.sh
+	gelöscht:               laus/scriptsForClasses/STUPLA/010-createStuplaUser.sh
+	gelöscht:               laus/scriptsForClasses/STUPLA/020-addAutoLoginForUserStupla.sh
+	gelöscht:               laus/scriptsForClasses/STUPLA/030-installXRDP.sh
+	gelöscht:               laus/scriptsForClasses/STUPLA/060-removeShutdownTime.sh
+	gelöscht:               laus/scriptsForClasses/STUPLA/070-setShutdownTime.sh
+	gelöscht:               laus/scriptsForClasses/STUPLA/files/README.txt
+	gelöscht:               laus/scriptsForClasses/STUPLA/files/chrome.desktop
+	gelöscht:               laus/scriptsForClasses/STUPLA/files/shutDownAt19Clock
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/000-README.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/010-hideRecoveryInGrub.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/020-setAptCacher.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/030-installPackages.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/030-repairScratch.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/031_installLibreOffice.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/040-setShutdownTime.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/060-createNFSClient.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/200-createStandardUserAndDomainUsersGroup.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/210-installRestoreStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/220-setUmaskTo002.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/300-createLDAPClient.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/310-addLDAPLoginToLightdm.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/320-setDefaultGroupForUser.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/330-addMkhomedirToPamr.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/540-blockEnglishDictionaryForTestees.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/910-installEclipseAndPlugins.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/911-install_greenfoot.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/912-TO_DO-install_bluej.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/913-install_dropbox.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/914-install-gimp-2.8.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/915-install_geogebra.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/915-install_oracle_java.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/917-install_JMonkey.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/918-install_Android-SDK.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/999-finishCommand.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/GNOME3/010-installGnomeShell.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/02proxy
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/add_mkhomedir
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.master
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.pupils
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.shares
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.teachers
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/client.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/geogebra.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/ldap.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/nsswitch.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/restore-standard-user.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/scratch
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/shutDownAt22Clock
+	gelöscht:               laus/scriptsForClasses/UBUNTU1204/xold/916-install_oracle_java_for_geogebra.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/000-INSTALL-SOFTWARE.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/010-setAptCacher.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/020-installUbuntuDesktop.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/030-installLibreOffice.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/040-installLaTex.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/050-installGeogebra.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/060-installVirtualisation.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/070-installDropbox.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/071-repairRightsForDropbox.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/080-installGoogleEarth.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/100-INSTALL-PROGRAMMING-SOFTWARE.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/110-installProgrammingStuff.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/120-installScratch.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/130-installBlueJ.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/140-installGreenfoot.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/150-installEclipseAndPlugins.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/160-installAndroidSDK
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/400-CONFIG-SYSTEM.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/410-hideRecoveryInGrub.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/420-setShutdownTime.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/430-createNFSClient.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/440-installLightdmScriptsSkeleton.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/500-CONFIG-SYSTEM-GSETTINGS.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/510-addUnityGsettingsNoLockout.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/520-addUnityGsettingsNoRemoteSearch.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/530-fixWrongKeyboard.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/600-CONFIG-SYSTEM-USER.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/610-createStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/620-installRestoreStandardUser.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/630-setUmaskTo002.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/700-CONFIG-SYSTEM-USER-LDAP.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/710-createLDAPClient.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/720-manipulatePAMStackForLDAP.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/730-setDefaultGroupForUser.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/740-addLDAPLoginToLightdm.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/750-addChangeSMBPasswordScript.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/800-CONFIG-TESTEE-ENVIROMENT.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/810-blockWWWForTestees.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/820-makeDesktopLinkForTestees.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/910-downgradeSamba.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/999-finishCommand.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/GNOME3/010-installGnomeShell.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/add_mkhomedir
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.master
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.pupils
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.shares
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.teachers
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/blockWWWForTestees.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/changepasswd
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/ldap.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/makeDesktopLinkForTestees.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/nsswitch.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/restore-standard-user.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/shutDownAt22Clock
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xfuture/890-blockEnglishDictionaryForTestees.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/050-installGeogebra.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/121-repairScratch.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/160-installJMonkey.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/170-installArduinoIDE.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/180-installFritzing.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/720-addMkhomedirToPam.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/916-install_oracle_java_for_geogebra.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/files/geogebra.conf
+	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/files/scratch
+	geändert:               laus/scriptsForClasses/UBUNTU1604/010-update.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/020-install_UBUNTU_Desktop.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/110-installBasicStuffAndTools.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/120-installLibreOffice.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/130-installMultimedia.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1604/150-installGraphics.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/170-installVirtualisation.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/180-installDropbox.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1604/200-INSTALL-PROGRAMMING-SOFTWARE.txt
+	gelöscht:               laus/scriptsForClasses/UBUNTU1604/210-installProgrammingStuff.sh
+	gelöscht:               laus/scriptsForClasses/UBUNTU1604/240-installEclipseAndPlugins.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/180-installOwncloudClient.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/190-installGoogleEarth.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/190-installUbuntuDesktopAddititionals.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/220-installGreenfoot.sh
+	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/230-installBlueJ.sh
+	gelöscht:               laus/scriptsForClasses/UNIFLOW/010-install-securePrinterQueues-Canon.sh
+	gelöscht:               laus/scriptsForClasses/UNIFLOW/INSTALL_RCANON01/010-install-Printer-Canon01.sh
+	gelöscht:               laus/scriptsForClasses/UNIFLOW/INSTALL_RCANON02/010-install-Printer-Canon02.sh
+	gelöscht:               laus/scriptsForClasses/UNIFLOW/INSTALL_RCANON03/010-install-Printer-Canon03.sh
+	gelöscht:               laus/scriptsForClasses/VMS/000-installVMEnviroment.sh
+	gelöscht:               laus/scriptsForClasses/VMS/2015.09.18-updateVMEnviroment.sh
+	gelöscht:               laus/scriptsForClasses/VMS/R003/2015.04.20-updateVM.sh
+	gelöscht:               laus/scriptsForClasses/VMS/R107/2015.04.20-updateVM.sh
+	gelöscht:               laus/scriptsForClasses/VMS/R115/2015.04.20-updateVM.sh
+	gelöscht:               laus/scriptsForClasses/VMS/R1XX/2015.04.20-updateVM.sh
+	gelöscht:               laus/scriptsForClasses/VMS/R314/2015.04.20-updateVM.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/2016.04.06-improveDesktopLinkForTestees.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/files/makeDesktopLinkForTestees.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2010.05.23.updateUser.save.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.01.29-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.02.19-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.02.21-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.03.05-dist-upgrade.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.04.05-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.04.08-update_geogebra.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.04.12-repair_geogebra_sources_list.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.05.16-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.10.17-install_p7zip.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.10.31-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.11.21-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.11.28.installKateVim.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.02.install_full_LaTex
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.09-reinstall_geogebra.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.12-dist-upgrade.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.12-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.16-dist-upgrade.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.18-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.02.20-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.03.03-repairRightsInHunspell.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.03.19-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.05.05-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.06.03.repair_hunspell
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.06.12.updateUser.save.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.10.09-repair_Dictionaries.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.10.17-updateGeogebra.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.10.17.updateUser.save.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.12.10-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.02.26-update_firefox_profil.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.03.25-addUserToGroupDialout.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.04.17-updateUser.save.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.10.08-add_exfat-filesystem.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.10.16-add_inkscape.sh
+	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.11.20-clear_nscd_hosts_cache.sh
+
+Unversionierte Dateien:
+  (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
+
+	laus/scriptsForClasses/AGI/
+	laus/scriptsForClasses/LEHRERGERAETE/
+	laus/scriptsForClasses/SAMBA.XFCE/
+	laus/scriptsForClasses/UBUNTU1604/000-rmLog.sh
+	laus/scriptsForClasses/UBUNTU1604/001-mountNFS.always.sh
+	laus/scriptsForClasses/UBUNTU1604/006-configApt.sh
+	laus/scriptsForClasses/UBUNTU1604/011-unlockApt.always.sh
+	laus/scriptsForClasses/UBUNTU1604/021-installCompiz.sh
+	laus/scriptsForClasses/UBUNTU1604/025-createNwboxuser.sh
+	laus/scriptsForClasses/UBUNTU1604/030-copyHome.always.sh
+	laus/scriptsForClasses/UBUNTU1604/031-copyHomeExtra.always.sh
+	laus/scriptsForClasses/UBUNTU1604/035-configLehrer.always.sh
+	laus/scriptsForClasses/UBUNTU1604/105-installPPAs.sh
+	laus/scriptsForClasses/UBUNTU1604/161-installLyx.sh
+	laus/scriptsForClasses/UBUNTU1604/200-installMathe.sh
+	laus/scriptsForClasses/UBUNTU1604/210-installMusikBE.sh
+	laus/scriptsForClasses/UBUNTU1604/211-installDia.sh
+	laus/scriptsForClasses/UBUNTU1604/220-installPythonNB.sh
+	laus/scriptsForClasses/UBUNTU1604/300-INSTALL-PROGRAMMING-SOFTWARE.txt
+	laus/scriptsForClasses/UBUNTU1604/310-installProgrammingStuff.sh
+	laus/scriptsForClasses/UBUNTU1604/900-update20160822.sh
+	laus/scriptsForClasses/UBUNTU1604/todo/190-installFreemind.sh
+	laus/scriptsForClasses/UBUNTU1604/todo/320-installEclipseAndPlugins.sh
+	laus/scriptsForClasses/WIN7VB/
+	laus/scriptsForClasses/XUBUNTU1604/
+
+keine Änderungen zum Commit vorgemerkt (benutzen Sie "git add" und/oder "git commit -a")

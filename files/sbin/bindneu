@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/etc/init.d/bind9 restart
+
+exit 0

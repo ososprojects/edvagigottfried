@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+# Icon=/home/nwboxuser/.PlayOnLinux/icones/full_size/Microsoft Word 2010
+Icon=application-msword
+Type=Application
+Categories=Office;Database;X-Red-Hat-Base;X-MandrivaLinux-MoreApplications-Databases;
+Exec=start-msword
+MimeType=application/vnd.oasis.opendocument.database;application/vnd.sun.xml.base;
+Name=Word 2010
+GenericName=Word 2010
+Comment=MS Word 2010
+StartupNotify=true
+X-GIO-NoFuse=true
+Keywords=Data;SQL;
+InitialPreference=5

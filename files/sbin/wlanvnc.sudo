@@ -1,0 +1,25 @@
+#!/bin/sh
+
+rm /etc/udev/rules.d/70-persistent-net.rules
+udevadm trigger --action=add
+
+echo .
+echo Bitte Stick anstecken und Enter drücken
+echo .
+read nix
+
+sed -i /wpa_passphrase/d /etc/hostapd/hostapd.conf
+echo -n 'wpa_passphrase=' >> /etc/hostapd/hostapd.conf
+pwgen -A0 8 1 >> /etc/hostapd/hostapd.conf
+sudo /etc/init.d/hostapd restart
+echo .
+echo WLAN-Passwort:
+cat /etc/hostapd/hostapd.conf | grep passphrase
+echo am Tablet Passwort eingeben
+echo .
+ifconfig br0|grep 'inet '
+echo 'Am Tablet VNC-Viewer starten und mit inet Adresse verbinden'
+echo 'dann Enter drücken'
+read nix
+
+x11vnc -auth guess -display :0 -forever

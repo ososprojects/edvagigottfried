@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Speicherorte
+GenericName=Package Manager
+Comment=Meine Daten, Videos, Bilder, ...
+Exec=pcmanfm --profile=orte
+Icon=synaptic
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;System;Settings;
+NotShowIn=KDE;
+X-Ubuntu-Gettext-Domain=synaptic
+X-XFCE-Source=file:///usr/share/applications/synaptic.desktop
+Path=/Orte
+StartupNotify=false

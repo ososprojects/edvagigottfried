@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Icon=brasero-disc-60
+Name=CD-Lade öffnen
+Comment=Öffnen der CD-Lade
+Categories=FileManager;Utility;Core;GTK;
+Exec=cdeject 
+StartupNotify=true
+Terminal=false
+MimeType=inode/directory;
