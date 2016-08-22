@@ -1,0 +1,22 @@
+# File structure
+# --------------
+# - blank lines are ignored
+# - comment lines are ignored (lines starting with a hash mark '#')
+# - other lines are considered valid records and can have 3 columns:
+#
+#       Hardware address, IP address, destination port
+#
+#   the last two are optional, in which case the following defaults
+#   are used:
+#
+#       IP address: 255.255.255.255 (the limited broadcast address)
+#       port:       9 (the discard port)
+#
+# wakeonlan -f r115.wol
+
+#host r115pc51
+F8:B1:56:A4:00:31
+#host r115pc52
+F8:B1:56:A4:04:35
+#host r115pc53
+F8:B1:56:A4:76:EE

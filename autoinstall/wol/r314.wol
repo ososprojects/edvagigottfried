@@ -1,0 +1,58 @@
+# File structure
+# --------------
+# - blank lines are ignored
+# - comment lines are ignored (lines starting with a hash mark '#')
+# - other lines are considered valid records and can have 3 columns:
+#
+#       Hardware address, IP address, destination port
+#
+#   the last two are optional, in which case the following defaults
+#   are used:
+#
+#       IP address: 255.255.255.255 (the limited broadcast address)
+#       port:       9 (the discard port)
+#
+# wakeonlan -f r314.wol
+
+#host r314pc01
+B8:AC:6F:7F:A4:3C
+#host r314pc02
+B8:AC:6F:7F:A6:56
+#host r314pc03
+B8:AC:6F:7F:AB:EC
+#host r314pc04
+B8:AC:6F:7F:AB:DB
+#host r314pc05
+B8:AC:6F:7F:A5:94
+#host r314pc06
+B8:AC:6F:7F:AB:E7
+#host r314pc07
+B8:AC:6F:7F:A4:D5
+#host r314pc08
+B8:AC:6F:7F:A5:A1
+#host r314pc09
+B8:AC:6F:7F:A8:4E
+#host r314pc10
+B8:AC:6F:7F:A5:8E
+#host r314pc11
+B8:AC:6F:7F:AA:4A
+#host r314pc12
+B8:AC:6F:7F:A2:8D
+#host r314pc13
+B8:AC:6F:7F:A6:59
+#host r314pc14
+B8:AC:6F:7F:A4:4A
+#host r314pc15
+B8:AC:6F:7F:AB:CF
+#host r314pc16
+B8:AC:6F:7F:A3:81
+#host r314pc17
+B8:AC:6F:7F:A5:9A
+#host r314pc18
+B8:AC:6F:7F:AB:39
+#host r314pc19
+B8:AC:6F:7F:A5:B8
+#host r314pc20
+B8:AC:6F:7F:A6:EE
+#host r314pc50
+B8:AC:6F:7F:A4:EE

@@ -1,0 +1,51 @@
+#! /bin/sh
+
+
+file="hier_den_filenamen_des_zu_ändernden_files_eingeben"
+if ! test -f $file".original"; then
+	cp $file $file".original"
+fi
+updatetime=$(date +%Y%m%d-%T)
+newfile=$file".laus."$updatetime
+cp $file $newfile
+
+## Zeile suchen
+sed '/hierher 1. Wort der Zeile/ hierher weitere Befehle, siehe unten z.B. s///'
+## letzte Zeile suchen
+sed '$'
+
+## String ersetzen
+sed '/Zeile suchen optional/ s/hier_den_alten_String 1.Zeile/hier_den_neuen_String/' $newfile > $file
+
+## Zeilen anfügen
+sed '{
+/Zeile suchen optional/ a \
+hier den anzufügenden Text mit \
+als Zeilenumbruch
+Achtung: zwischem letztem Zeilenumbruch und } muss eine Leerzeile stehen!!
+
+}' $newfile > $file
+
+## Zeilen einfügen
+sed "{
+/Zeile suchen optional/ i \
+hier den anzufügenden Text mit \
+als Zeilenumbruch
+}" $newfile > $file
+
+## mehrere sed-Befehle hintereinander
+sed -e "{
+hier Befehle Nr1
+}" -e "{
+hier Befehle Nr2
+}" -e usw.
+
+
+
+######################################################################################
+################## S T O P   O F   S C R I P T #######################################
+######################################################################################
+
+rc_status -v
+rc_exit
+
