@@ -6,7 +6,7 @@ cp -up /nwbox-nfs/files/wp1.jpg /usr/share/wallpapers/agi-wp.png
 rsync -av /nwbox-nfs/files/nwboxuser /opt > /var/log/laus/rsync-home.log
 cp -p /opt/nwboxuser/dt-main/* /opt/nwboxuser/Schreibtisch
 
-# profile Christian
+# firefox profile Christian
 case $(hostname) in
   r404pc02 )
     cp -Rp /nwbox-nfs/files/firefox/* /opt/nwboxuser/.mozilla/firefox
@@ -18,15 +18,12 @@ esac
 
 # cp /nwbox-nfs/files/etc/lightdm/lightdm.conf.d/10-xubuntu.conf /etc/lightdm/lightdm.conf.d
 
-# copy position of desktop icons
+# copy configuration of xfce4 and position of desktop icons
 chattr -i /opt/nwboxuser/.config/xfce4/desktop/*
+cp -pR /nwbox-nfs/files/nwboxuser/.config/xfce4 /opt/nwboxuser/.config
 rm /opt/nwboxuser/.config/xfce4/desktop/icons.screen0-*.rc
-cp -p /nwbox-nfs/files/nwboxuser/.config/xfce4/desktop/icons.screen0.rc /opt/nwboxuser/.config/xfce4/desktop
-chown -R nwboxuser:nwboxuser /opt/nwboxuser
-chmod -R 777 /opt/nwboxuser
 
 # copy compiz config
-cp -pR /nwbox-nfs/files/nwboxuser/.config/xfce4 /opt/nwboxuser/.config
 cp -pR /nwbox-nfs/files/nwboxuser/.config/compiz-1 /opt/nwboxuser/.config
 cp -pR /nwbox-nfs/files/nwboxuser/.config/dconf    /opt/nwboxuser/.config
 chown -R nwboxuser:nwboxuser /opt/nwboxuser
@@ -37,6 +34,7 @@ chattr +i /opt/nwboxuser/.config/xfce4/desktop/icons.screen0.rc
 rsync -av /nwbox-nfs/files/sbin /usr/local
 chmod 755 /usr/local/sbin/*
 
+# copy client configuration files and set correct attributes
 cp -upR /nwbox-nfs/files/etc/* /etc
 chown -R root:root /etc/sudoers.d
 chown -R root:root /etc/cron.d

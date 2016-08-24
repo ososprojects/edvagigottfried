@@ -4,8 +4,9 @@ mkdir -p /opt/VMs
 chmod 777 /opt/VMs
 
 # Win7 mit MS-Office2013 an den Lehrergeräten
+# und in der Aula (r086pc01)
 case $(hostname) in
-  r102pc01 | r110* | r208pc01 | r210pc01 | r310pc01 | r408pc20 | r408pc01 )
+  r102pc01 | r110* | r208pc01 | r210pc01 | r310pc01 | r408pc20 | r408pc01 | r086pc01 )
     cp /nwbox/public/data/Win7.desktop /opt/nwboxuser/dt-main
     cp /nwbox/public/data/Win7.desktop /opt/nwboxuser/dt-Schreibtisch
     chmod 777 /opt/nwboxuser/Schreibtisch/*.desktop

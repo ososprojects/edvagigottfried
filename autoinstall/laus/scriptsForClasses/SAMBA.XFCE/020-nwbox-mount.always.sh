@@ -1,14 +1,7 @@
 #!/bin/sh
-### BEGIN INIT INFO
-# Provides:          nwbox-public
-# Required-Start:    $network $local_fs $remote_fs $syslog
-# Required-Stop:     $network $local_fs $remote_fs
-# Default-Start:     2 3 4 5
-# Default-Stop:      0 1 6
-# Short-Description: call nwbox-mount in public
-### END INIT INFO
 
-# Skript nwbox-mount
+# Skript 020-nwbox-mount.always.sh
+
 mkdir -p /nwbox/fueralle
 mkdir -p /nwbox/linuxapps
 mkdir -p /nwbox/apps-wine

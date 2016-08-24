@@ -1,12 +1,21 @@
 #! /bin/bash
 
-export DEBIAN_FRONTEND=noninteractive
+# vorerst versuchsweise nur für 4 Geräte
 
-rm /var/lib/dpkg/updates/*
-rm /var/lib/dpkg/lock
-dpkg --configure -a
-apt-get -f install
+case $(hostname) in
+  r407pc05 |  r407pc06 |  r407pc07 |  r407pc08 ) 
+    export DEBIAN_FRONTEND=noninteractive
 
-apt-get update
-apt-get -y upgrade
+    rm /var/lib/dpkg/updates/*
+    rm /var/lib/dpkg/lock
+    dpkg --configure -a
+    apt-get -f install
+
+    apt-get update
+    apt-get -y -q upgrade
+  ;;
+  * )
+  ;;
+esac
+
 
