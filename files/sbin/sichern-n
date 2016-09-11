@@ -1,4 +1,8 @@
 #!/bin/sh
 
-rsync -avn --exclude '.cache' --exclude '.thumbnails' --exclude '*.tmp' --exclude '~.*' --exclude '.PlayOnLinux' \
-   /home/nwboxuser smb01:/export/files 
+rsync -avn --exclude '.cache' --exclude '.thumbnails' --exclude '*.tmp' --exclude '~.*' \
+   --exclude '.PlayOnLinux' \
+   --exclude 'icons.screen0-*' \
+   --exclude 'Schreibtisch' --exclude 'dt-*' \
+   --exclude '.ICEauthority' --exclude '.Xauthority' --exclude '.xsession-err*' \
+   /home/nwboxuser smb01:/export/files

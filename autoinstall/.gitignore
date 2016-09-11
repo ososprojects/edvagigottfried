@@ -1,0 +1,7 @@
+laus/hostsToClasses
+vms/Windows.vdi
+xBigFiles
+VirtualBox_VMs
+*.directory
+*~
+.Trash*

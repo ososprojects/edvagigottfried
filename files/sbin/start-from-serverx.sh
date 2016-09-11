@@ -14,7 +14,7 @@ done
 
 echo $timeout1 > /var/log/upstart/timeout-serverx.log
 
-# /nwbox/public/start-from-serverx
+/nwbox/public/start-from-serverx
 
 exit 0
 

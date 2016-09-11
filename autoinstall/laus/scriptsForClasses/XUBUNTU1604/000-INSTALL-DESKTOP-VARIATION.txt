@@ -1,0 +1,10 @@
+Installation of Desktop - Version: 
+for Example:
+
+* UBUNTU	Unity - Desktop
+* KUBUNTU	KDE - Desktop
+* GUBUNTU	GNOME - Desktop
+* XUBUNTU	XFCE - Desktop
+* LUBUNTU	LXDE - Desktop
+
+all Desktop dependend packages have to be placed here

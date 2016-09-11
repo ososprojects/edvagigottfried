@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WinXP-Littera
+Comment=
+Exec=vboxmanage startvm "WinXP-Littera"
+Icon=accessories-dictionary
+Path=
+Terminal=false
+StartupNotify=false

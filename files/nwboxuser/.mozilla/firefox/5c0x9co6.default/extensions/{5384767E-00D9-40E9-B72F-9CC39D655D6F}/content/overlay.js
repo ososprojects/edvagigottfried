@@ -9,7 +9,7 @@ var epubOverlay =
 {
    init: function()
    {
-      var version = "1.5.0.8";
+      var version = "1.5.0.9";
 
       var pref = Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefService).getBranch("extensions.epubreader.");
       var lastVersion = "";

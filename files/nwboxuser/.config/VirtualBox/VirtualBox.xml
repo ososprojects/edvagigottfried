@@ -9,11 +9,11 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=ceb031d3-439f-4ead-a1a3-59623c4e538a,m=7b068268-3eb3-4baa-8f6e-8ca9012c1af2,m=3b0ca6d6-53f3-4176-8494-e7572426ed8a"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=ceb031d3-439f-4ead-a1a3-59623c4e538a,m=7b068268-3eb3-4baa-8f6e-8ca9012c1af2,m=a27177ea-42b0-40a4-aea5-61181105f127"/>
       <ExtraDataItem name="GUI/HostScreenSaverDisabled" value="false"/>
       <ExtraDataItem name="GUI/Input/AutoCapture" value="true"/>
       <ExtraDataItem name="GUI/Input/HostKeyCombination" value="65508"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=WinXP"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=WinXP-Littera"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="255,237,770,550"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="256,513"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingScale,showRuntimeError.warning.DvdOrFloppyImageInaccessible,remindAboutAutoCapture,remindAboutMouseIntegration,remindAboutWrongColorDepth,showRuntimeError.warning.BrokenSharedFolder,warnAboutInaccessibleMedia"/>
@@ -21,7 +21,7 @@
     <MachineRegistry>
       <MachineEntry uuid="{ceb031d3-439f-4ead-a1a3-59623c4e538a}" src="/opt/VMs/WinXP-TI/WinXP-TI.vbox"/>
       <MachineEntry uuid="{7b068268-3eb3-4baa-8f6e-8ca9012c1af2}" src="/opt/VMs/Win7/Win7.vbox"/>
-      <MachineEntry uuid="{3b0ca6d6-53f3-4176-8494-e7572426ed8a}" src="/opt/VMs/WinXP/WinXP.vbox"/>
+      <MachineEntry uuid="{a27177ea-42b0-40a4-aea5-61181105f127}" src="/opt/VMs/WinXP-Littera/WinXP-Littera.vbox"/>
     </MachineRegistry>
     <MediaRegistry>
       <HardDisks/>

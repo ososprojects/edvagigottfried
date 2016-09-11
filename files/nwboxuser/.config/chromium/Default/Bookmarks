@@ -1,0 +1,226 @@
+{
+   "checksum": "7c28f0d0e88e0b4c3be7c2b98a5ef87f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13035649723000000",
+            "id": "6",
+            "name": "",
+            "type": "url",
+            "url": "http://agi.tsn.at/"
+         }, {
+            "date_added": "13035652003000000",
+            "id": "7",
+            "name": "",
+            "type": "url",
+            "url": "http://lsr-t.gv.at/"
+         }, {
+            "date_added": "13035652061000000",
+            "id": "8",
+            "name": "BMBF",
+            "type": "url",
+            "url": "http://bmbf.gv.at/"
+         }, {
+            "date_added": "13068570833000000",
+            "id": "9",
+            "name": "Portal Tirol",
+            "type": "url",
+            "url": "https://portal.tirol.gv.at/login.xhtml?cid=173277"
+         }, {
+            "date_added": "13039008030000000",
+            "id": "10",
+            "name": "Portal Austria",
+            "type": "url",
+            "url": "https://www.portal.at/"
+         }, {
+            "date_added": "13035652120000000",
+            "id": "11",
+            "name": "VWA",
+            "type": "url",
+            "url": "http://www.ahs-vwa.at/"
+         }, {
+            "date_added": "13034682272000000",
+            "id": "12",
+            "name": "leo",
+            "type": "url",
+            "url": "http://dict.leo.org/ende/index_de.html"
+         }, {
+            "date_added": "13041440280000000",
+            "id": "13",
+            "name": "PONS",
+            "type": "url",
+            "url": "http://de.pons.com/"
+         }, {
+            "date_added": "13035652237000000",
+            "id": "14",
+            "name": "Herold",
+            "type": "url",
+            "url": "http://www.herold.at/telefonbuch/"
+         }, {
+            "date_added": "13034682323000000",
+            "id": "15",
+            "name": "",
+            "type": "url",
+            "url": "http://www.amazon.de/ref=rd_www_amazon_at/?site-redirect=at"
+         }, {
+            "date_added": "13034682376000000",
+            "id": "16",
+            "name": "eBay",
+            "type": "url",
+            "url": "http://www.ebay.at/"
+         }, {
+            "date_added": "13034682220000000",
+            "id": "17",
+            "name": "UPC",
+            "type": "url",
+            "url": "https://www.upc.at/upcmail/"
+         }, {
+            "date_added": "13034682177000000",
+            "id": "18",
+            "name": "",
+            "type": "url",
+            "url": "http://asmp.a1.net/asmp/LoginMasterServlet/lvpaaa2?userRequestURL=http%253A%252F%252Fwww.a1.net%252Fmail&serviceRegistrationURL=&service=A1Mail_at_TELEKOM&cookie=skip&level=30&aaacookie=lvpaaa2"
+         }, {
+            "date_added": "13034682091000000",
+            "id": "19",
+            "name": "GMX",
+            "type": "url",
+            "url": "https://www.gmx.at/"
+         }, {
+            "date_added": "13074020519000000",
+            "id": "20",
+            "name": "TSN",
+            "type": "url",
+            "url": "https://mail2.tsn.at/tsnwebmail"
+         }, {
+            "date_added": "13033840240000000",
+            "id": "21",
+            "name": "",
+            "type": "url",
+            "url": "http://www.youtube.com/"
+         }, {
+            "date_added": "13035652273000000",
+            "id": "22",
+            "name": "",
+            "type": "url",
+            "url": "http://de.wikipedia.org/wiki/Wikipedia:Hauptseite"
+         }, {
+            "date_added": "13107973148000000",
+            "id": "23",
+            "name": "WebUntis",
+            "type": "url",
+            "url": "https://tritone.webuntis.com/WebUntis/?school=ak-gym-innsbruck#main"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13033839233000000",
+                  "id": "26",
+                  "name": "Ubuntu",
+                  "type": "url",
+                  "url": "http://www.ubuntu.com/"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "27",
+                  "name": "Ubuntu Wiki (community-edited website)",
+                  "type": "url",
+                  "url": "http://wiki.ubuntu.com/"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "28",
+                  "name": "Make a Support Request to the Ubuntu Community",
+                  "type": "url",
+                  "url": "https://answers.launchpad.net/ubuntu/+addquestion"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "29",
+                  "name": "Debian (Ubuntu is based on Debian)",
+                  "type": "url",
+                  "url": "http://www.debian.org/"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "30",
+                  "name": "Ubuntu One - The personal cloud that brings your digital life together",
+                  "type": "url",
+                  "url": "https://one.ubuntu.com/"
+               } ],
+               "date_added": "13117591253229858",
+               "date_modified": "0",
+               "id": "25",
+               "name": "Ubuntu and Free Software links",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13033839233000000",
+                  "id": "32",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/help/"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "33",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/customize/"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "34",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13033839233000000",
+                  "id": "35",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               } ],
+               "date_added": "13117591253230582",
+               "date_modified": "0",
+               "id": "31",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13073591747000000",
+                  "id": "37",
+                  "name": "about:blank",
+                  "type": "url",
+                  "url": "about:blank"
+               } ],
+               "date_added": "13117591253231170",
+               "date_modified": "0",
+               "id": "36",
+               "name": "Weitere Lesezeichen",
+               "type": "folder"
+            } ],
+            "date_added": "13117591253229421",
+            "date_modified": "13117591253229423",
+            "id": "24",
+            "name": "Importiert",
+            "type": "folder"
+         } ],
+         "date_added": "13117591089474622",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Lesezeichenleiste",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13117591089474634",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Weitere Lesezeichen",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13117591089474636",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Lesezeichen",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

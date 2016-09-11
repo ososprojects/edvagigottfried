@@ -1,0 +1,50 @@
+VirtualBox XPCOM Server 5.0.24_Ubuntu r108355 linux.amd64 (Jul  5 2016 08:17:21) release log
+00:00:00.021676 main     Log opened 2016-09-06T22:06:00.475489000Z
+00:00:00.021678 main     Build Type: release
+00:00:00.021683 main     OS Product: Linux
+00:00:00.021685 main     OS Release: 4.4.0-36-generic
+00:00:00.021687 main     OS Version: #55-Ubuntu SMP Thu Aug 11 18:01:55 UTC 2016
+00:00:00.021711 main     DMI Product Name: ESPRIMO E5730                 
+00:00:00.021741 main     DMI Product Version:         
+00:00:00.021797 main     Host RAM: 3632MB total, 2922MB available
+00:00:00.021801 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.021803 main     Process ID: 4535
+00:00:00.021804 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.145790 nspr-2   Home directory: '/home/nwboxuser/.config/VirtualBox'
+00:00:00.158754 nspr-2   Loading settings file "/home/nwboxuser/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.183959 nspr-2   NAT: resolv.conf: nameserver 10.0.9.99
+00:00:00.183984 nspr-2   HostDnsMonitor: old information
+00:00:00.183991 nspr-2     no server entries
+00:00:00.183996 nspr-2     no domain set
+00:00:00.184002 nspr-2     no search string entries
+00:00:00.184007 nspr-2   HostDnsMonitor: new information
+00:00:00.184013 nspr-2     server 1: 10.0.9.99
+00:00:00.184018 nspr-2     domain: nwbox.net
+00:00:00.184024 nspr-2     search string 1: nwbox.net
+00:00:00.184033 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.185926 nspr-2   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:00.279712 nspr-2   VD: VDInit finished
+00:00:00.283306 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.366220 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={MachineWrap} aText={Runtime error opening '/opt/VMs/WinXP-TI/WinXP-TI.vbox' for reading: -102(File not found.).
+00:00:00.366232 nspr-2   /build/virtualbox-Xs7cR9/virtualbox-5.0.24-dfsg/src/VBox/Main/src-server/MachineImpl.cpp[740] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.389553 nspr-2   Loading settings file "/opt/VMs/Win7/Win7.vbox" with version "1.14-linux"
+00:00:00.424692 nspr-2   Loading settings file "/opt/VMs/WinXP-Littera/WinXP-Littera.vbox" with version "1.14-linux"
+00:00:00.559058 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:03.350344 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:03.351425 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:03.371747 nspr-3   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] rc VINF_SUCCESS
+00:00:03.372114 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:03.945216 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:03.946355 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:03.990157 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={f30138d4-e5ea-4b3a-8858-a059de4c93fd} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:00:04.382555 nspr-4   Failed to open "/dev/vboxdrvu", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:04.386830 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={afca788c-4477-787d-60b2-3fa70e56fbbc} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:42.827519 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/Win7/Snapshots/{81a47ba8-86ba-4b7c-80e1-08eb84465784}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:42.827593 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/Win7/Snapshots/{9ae2ac0e-2277-44c6-a597-4a52f6541f3b}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:42.827621 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/Win7/Snapshots/{beb2b918-84a9-425b-af51-510dd4fc8762}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:42.827645 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/Win7/Win7.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:42.828238 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/WinXP-Littera/Snapshots/{9eef1b38-c556-44c6-872d-8806ecd3b3fc}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:42.828266 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/WinXP-Littera/Snapshots/{0e4aec23-daba-4f72-9552-e9ae6d134c1e}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:42.828290 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium '/opt/VMs/WinXP-Littera/WinXP-Littera.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:01:43.301575 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd945} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:47.829341 main     {00007f0018014630} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT

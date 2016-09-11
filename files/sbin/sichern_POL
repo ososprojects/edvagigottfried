@@ -1,4 +1,7 @@
 #!/bin/sh
 
-rsync -av --exclude '.cache' --exclude '.thumbnails' --exclude '*.tmp' --exclude '~.*' --exclude 'icons.screen0-*' \
+rsync -av --exclude '.cache' --exclude '.thumbnails' --exclude '*.tmp' --exclude '~.*' \
+   --exclude 'icons.screen0-*' \
+   --exclude 'Schreibtisch' --exclude 'dt-*' \
+   --exclude '.ICEauthority' --exclude '.Xauthority' --exclude '.xsession-err*' \
    /home/nwboxuser smb01:/export/files > /var/log/laus/sichern_POL.log

@@ -1,6 +1,3 @@
 openConnection: connect: Datei oder Verzeichnis nicht gefunden
 cannot connect to brltty at :0
-upstart: logrotate-main-Prozess (22158) wurde von TERM-Signal beendet
-upstart: upstart-dbus-session-bridge-main-Prozess (22217) wurde mit dem Status 1 beendet
 upstart: Vom benachrichtigten D-Bus-Bus getrennt
-upstart: bamfdaemon-main-Prozess (22238) wurde von TERM-Signal beendet

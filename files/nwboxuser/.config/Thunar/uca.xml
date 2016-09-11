@@ -3,7 +3,7 @@
 <action>
 	<icon>Terminal</icon>
 	<name>Terminal hier öffnen</name>
-	<unique-id>1470070371985258-1</unique-id>
+	<unique-id>1473114165762824-1</unique-id>
 	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
 	<description>Beispiel für eine benutzerdefinierte Aktion</description>
 	<patterns>*</patterns>
@@ -12,7 +12,7 @@
 <action>
 	<icon>filefind</icon>
 	<name>In diesem Ordner suchen</name>
-	<unique-id>1470070371985332-2</unique-id>
+	<unique-id>1473114165762901-2</unique-id>
 	<command>catfish --path=%f</command>
 	<description>Nach Dateien in diesem Ordner suchen</description>
 	<patterns>*</patterns>

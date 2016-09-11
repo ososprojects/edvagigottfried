@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Schüler- Bildschirme
+Comment=
+Exec=/nwbox/linuxapps/vnc03 /home/nwboxuser/.vnc/vnc-hosts.ini
+Icon=xfce4-workspaces
+Path=
+Terminal=false
+StartupNotify=false

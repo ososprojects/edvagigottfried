@@ -1,8 +1,8 @@
 <html:tr>
    <html:td class="header" style="text-align:center; white-space:nowrap; padding-left:2px; padding-right:4px;"><html:input type="checkbox" id="toggle" style="display:inline-block;" title="Toggle all checkboxes" onclick="library.toggleDeleteCheckboxes();" /><html:img src="chrome://epubreader/skin/trashcan.png" id="delete_all" title="Delete all checked eBooks" style="margin-left:4px;" onclick="library.deleteEpubs(0);" /></html:td>
-   <html:td class="header" style="width:60%; font-weight:bold;"><html:a href="javascript:library.sort(library.sort_title);" title="%tooltip_sort_title%">%title%</html:a></html:td>
-   <html:td class="header" style="width:30%; font-weight:bold;"><html:a href="javascript:library.sort(library.sort_author);" title="%tooltip_sort_author%">%author%</html:a></html:td>
-   <html:td class="header" style="width:10%; font-weight:bold;"><html:a href="javascript:library.sort(library.sort_timestamp);" title="%tooltip_sort_added%">%added%</html:a></html:td>
+   <html:td class="header" style="width:60%; font-weight:bold;"><html:a onclick="library.sort(library.sort_title);" title="%tooltip_sort_title%">%title%</html:a></html:td>
+   <html:td class="header" style="width:30%; font-weight:bold;"><html:a onclick="library.sort(library.sort_author);" title="%tooltip_sort_author%">%author%</html:a></html:td>
+   <html:td class="header" style="width:10%; font-weight:bold;"><html:a onclick="library.sort(library.sort_timestamp);" title="%tooltip_sort_added%">%added%</html:a></html:td>
    <html:td class="header" style="font-weight:bold;"></html:td>
    <html:td class="header" style="font-weight:bold;"></html:td>
    <html:td class="header" style="font-weight:bold;"></html:td>

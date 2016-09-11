@@ -1,18 +1,18 @@
 #!/bin/bash
 
+date > /var/log/time-copyWin7.log
+
 mkdir -p /opt/VMs
 chmod 777 /opt/VMs
 
 # Win7 mit MS-Office2013 an den Lehrergeräten
 # und in der Aula (r086pc01)
+# WinXP-Littera an SBIB03
 case $(hostname) in
   r102pc01 | r110* | r208pc01 | r210pc01 | r310pc01 | r408pc20 | r408pc01 | r086pc01 )
-    cp /nwbox/public/data/Win7.desktop /opt/nwboxuser/dt-main
-    cp /nwbox/public/data/Win7.desktop /opt/nwboxuser/dt-Schreibtisch
-    chmod 777 /opt/nwboxuser/Schreibtisch/*.desktop
-    chmod 777 /opt/nwboxuser/dt-main/*.desktop
-
-    rsync --delete -av /nwbox-nfs/files/VMs/Win7 /opt/VMs > /var/log/vms.log
+    rsync --delete -av /nwbox-nfs/VMs/Win7 /opt/VMs > /var/log/vms.log
+    chmod -R 777 /opt/VMs
+    chown -R nwboxuser:nwboxuser /opt/VMs
   ;;
   *)
   ;;
@@ -20,16 +20,16 @@ esac
 
 # WinXP an SBIB03
 case $(hostname) in
-  ;;
-  r009pc03 )
-    cp /nwbox/public/data/WinXP-Littera.desktop /home/nwboxuser/dt-main
-    chmod 777 /opt/nwboxuser/Schreibtisch/WinXP-Littera.desktop
-
-    rsync --delete -av /nwbox-nfs/files/VMs/WinXP /opt/VMs > /var/log/vms.log
+  xr009pc03 )
+    rsync --delete -av /nwbox-nfs/VMs/WinXP-Littera /opt/VMs > /var/log/vms-XP.log
+    chmod -R 777 /opt/VMs
+    chown -R nwboxuser:nwboxuser /opt/VMs
   ;;
   *)
   ;;
 esac
+
+date >> /var/log/time-copyWin7.log
 
 exit 1
 

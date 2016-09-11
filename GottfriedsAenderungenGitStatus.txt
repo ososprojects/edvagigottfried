@@ -5,315 +5,531 @@ Ihr Branch ist auf dem selben Stand wie 'origin/master'.
   (benutzen Sie "git add/rm <Datei>...", um die Änderungen zum Commit vorzumerken)
   (benutzen Sie "git checkout -- <Datei>...", um die Änderungen im Arbeitsverzeichnis zu verwerfen)
 
-	gelöscht:               laus/scriptsForClasses/APP/100-CONFIG-SYSTEM.txt
-	gelöscht:               laus/scriptsForClasses/APP/110-hideRecoveryInGrub.sh
-	gelöscht:               laus/scriptsForClasses/APP/120-setShutdownTime.sh
-	gelöscht:               laus/scriptsForClasses/APP/130-createNFSClient.sh
-	gelöscht:               laus/scriptsForClasses/APP/140-installLightdmScriptsSkeleton.sh
-	gelöscht:               laus/scriptsForClasses/APP/200-CONFIG-SYSTEM-GSETTINGS.txt
-	gelöscht:               laus/scriptsForClasses/APP/210-addUnityGsettingsNoLockout.sh
-	gelöscht:               laus/scriptsForClasses/APP/220-addUnityGsettingsLocalMenusAlwaysVisible.sh
-	gelöscht:               laus/scriptsForClasses/APP/300-CONFIG-SYSTEM-USER.txt
-	gelöscht:               laus/scriptsForClasses/APP/310-createStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/APP/320-installRestoreStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/APP/330-setUmaskTo002.sh
-	gelöscht:               laus/scriptsForClasses/APP/400-CONFIG-SYSTEM-USER-LDAP.txt
-	gelöscht:               laus/scriptsForClasses/APP/410-createLDAPClient.sh
-	gelöscht:               laus/scriptsForClasses/APP/420-manipulatePAMStackForLDAP.sh
-	gelöscht:               laus/scriptsForClasses/APP/430-setDefaultGroupForUser.sh
-	gelöscht:               laus/scriptsForClasses/APP/440-configLightdmForLDAP.sh
-	gelöscht:               laus/scriptsForClasses/APP/450-addChangeSMBPasswordScript.sh
-	gelöscht:               laus/scriptsForClasses/APP/460-installRemoveLDAPLoginHistory.sh
-	gelöscht:               laus/scriptsForClasses/APP/500-CONFIG-TESTEE-ENVIROMENT.txt
-	gelöscht:               laus/scriptsForClasses/APP/510-blockWWWForTestees.sh
-	gelöscht:               laus/scriptsForClasses/APP/520-blockEnglishDictionaryForTestees.sh
-	gelöscht:               laus/scriptsForClasses/APP/530-makeDesktopLinkForTestees.sh
-	gelöscht:               laus/scriptsForClasses/APP/900-FINISH-INSTALLATION.txt
-	gelöscht:               laus/scriptsForClasses/APP/999-finishCommand.sh
-	gelöscht:               laus/scriptsForClasses/APP/files/add_mkhomedir
-	gelöscht:               laus/scriptsForClasses/APP/files/auto.master
-	gelöscht:               laus/scriptsForClasses/APP/files/auto.pupils
-	gelöscht:               laus/scriptsForClasses/APP/files/auto.shares
-	gelöscht:               laus/scriptsForClasses/APP/files/auto.teachers
-	gelöscht:               laus/scriptsForClasses/APP/files/blockWWWForTestees.sh
-	gelöscht:               laus/scriptsForClasses/APP/files/changepasswd
-	gelöscht:               laus/scriptsForClasses/APP/files/ldap.conf
-	gelöscht:               laus/scriptsForClasses/APP/files/makeDesktopLinkForTestees.sh
-	gelöscht:               laus/scriptsForClasses/APP/files/nsswitch.conf
-	gelöscht:               laus/scriptsForClasses/APP/files/remove-ldap-login-history.service
-	gelöscht:               laus/scriptsForClasses/APP/files/remove-ldap-login-history.sh
-	gelöscht:               laus/scriptsForClasses/APP/files/restore-standard-user.service
-	gelöscht:               laus/scriptsForClasses/APP/files/restore-standard-user.sh
-	gelöscht:               laus/scriptsForClasses/APP/files/shutDownAt22Clock
-	gelöscht:               laus/scriptsForClasses/APP/todo/220-addUnityGsettingsNoRemoteSearch.sh
-	gelöscht:               laus/scriptsForClasses/APP/todo/220-showWorkspaceSwitcher.sh
-	gelöscht:               laus/scriptsForClasses/BEAMER/010-installCloneModus.sh
-	gelöscht:               laus/scriptsForClasses/BEAMER/files/clone
-	gelöscht:               laus/scriptsForClasses/BEAMER/files/clone-settings
-	gelöscht:               laus/scriptsForClasses/MATURA/PRINTER/010-install-Printer-Canon03-Canon02.sh
-	gelöscht:               laus/scriptsForClasses/MATURA/VORBEREITUNG/010-createMaturaUser.sh
-	gelöscht:               laus/scriptsForClasses/MATURA/VORBEREITUNG/020-deleteLDAP.sh
-	gelöscht:               laus/scriptsForClasses/R002/010-installPrinter-Brother_HL-6050D_DN.sh
-	gelöscht:               laus/scriptsForClasses/R003/010-installPrinter-Lexmark-T644.sh
-	gelöscht:               laus/scriptsForClasses/R005/010-installPrinter-Brother_HL-7050.sh
-	gelöscht:               laus/scriptsForClasses/R107/050-add_configprinter_to_configwinontop.sh
-	gelöscht:               laus/scriptsForClasses/R107/files/configprinter.KonfZi-TS.cmd
-	gelöscht:               laus/scriptsForClasses/R115/010-installPrinter-HP_Laserjet_P2055dn.sh
-	gelöscht:               laus/scriptsForClasses/R115/011-installPrinter-CanoniR-ADV_C7260.sh
-	gelöscht:               laus/scriptsForClasses/R115/020-changeShutdownTimeTo23.sh
-	gelöscht:               laus/scriptsForClasses/R115/050-add_configprinter_to_configwinontop.sh
-	gelöscht:               laus/scriptsForClasses/R115/files/configprinter.KonfZi-AS.cmd
-	gelöscht:               laus/scriptsForClasses/R314/010-installPrinter-Lexmark_T652.sh
-	gelöscht:               laus/scriptsForClasses/R314/890-blockEnglishDictionaryForTestees.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/010-correctHostname
-	gelöscht:               laus/scriptsForClasses/SAVE/010-installPrinter-HP_LaserJet500color_M551.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/020-setDomainForIDMAPD.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/160-updateVM.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2012.02.20-installscratch.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2012.06.01.activateLibDvdRead4.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2012.06.18.installGimp.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2012.09.24-update_firefox_bookmarks.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2012.10.03-remove-Mozilla-Libreoffice-Plugin.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2012.10.30-installGimp.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/2013.05.12-install_greenfoot.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/900-installVirualbox.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/010-installCloneModus.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/README.txt
-	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/files/clone
-	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/files/clone-settings
-	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/files/clone_in_background
-	gelöscht:               laus/scriptsForClasses/SAVE/BEAMER/old/lightdm.conf
-	gelöscht:               laus/scriptsForClasses/SAVE/CUPSSERVER/010-setCupsServer.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/010-changeFstabFromUUIDtoDevice.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/010-hideRecoveryInGrub.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/021-changeGrubFromUUIDtoDevice.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/030-setAptCacher.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/040-createNFSClient.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/050-createStandardUserAndDomainUsersGroup.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/060-installRestoreStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/070-setShutdownTime.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/080-setCupsServer.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/090-createLDAPClient.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/100-addLDAPLoginToLightdm.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/110-addLDAPUsersToLocalGroups.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/900-installPackages.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/MAKE_MUTTER/910-installEclipseAndPlugins.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/NOCUPSSERVER/010-deleteCupsServer.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/R001/001-installR001Printer.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/R001/BEAMER_1024x768/010-setMonitorforUser.sh
-	gelöscht:               laus/scriptsForClasses/SAVE/R001/BEAMER_1024x768/files/monitors.xml
-	gelöscht:               laus/scriptsForClasses/SAVE/laus-server.old.sh
-	gelöscht:               laus/scriptsForClasses/STANDALONE/100-CREATE_AND_CONFIG-SYSTEM-USER.txt
-	gelöscht:               laus/scriptsForClasses/STANDALONE/110-createStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/STANDALONE/200-REMOVE_APT-CACHER_AND_LAUS.txt
-	gelöscht:               laus/scriptsForClasses/STANDALONE/210-removeAPTCacher.sh
-	gelöscht:               laus/scriptsForClasses/STANDALONE/220-stopLausClient.sh
-	gelöscht:               laus/scriptsForClasses/STANDALONE/999-finishCommand.sh
-	gelöscht:               laus/scriptsForClasses/STUPLA/010-createStuplaUser.sh
-	gelöscht:               laus/scriptsForClasses/STUPLA/020-addAutoLoginForUserStupla.sh
-	gelöscht:               laus/scriptsForClasses/STUPLA/030-installXRDP.sh
-	gelöscht:               laus/scriptsForClasses/STUPLA/060-removeShutdownTime.sh
-	gelöscht:               laus/scriptsForClasses/STUPLA/070-setShutdownTime.sh
-	gelöscht:               laus/scriptsForClasses/STUPLA/files/README.txt
-	gelöscht:               laus/scriptsForClasses/STUPLA/files/chrome.desktop
-	gelöscht:               laus/scriptsForClasses/STUPLA/files/shutDownAt19Clock
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/000-README.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/010-hideRecoveryInGrub.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/020-setAptCacher.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/030-installPackages.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/030-repairScratch.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/031_installLibreOffice.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/040-setShutdownTime.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/060-createNFSClient.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/200-createStandardUserAndDomainUsersGroup.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/210-installRestoreStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/220-setUmaskTo002.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/300-createLDAPClient.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/310-addLDAPLoginToLightdm.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/320-setDefaultGroupForUser.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/330-addMkhomedirToPamr.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/540-blockEnglishDictionaryForTestees.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/910-installEclipseAndPlugins.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/911-install_greenfoot.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/912-TO_DO-install_bluej.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/913-install_dropbox.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/914-install-gimp-2.8.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/915-install_geogebra.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/915-install_oracle_java.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/917-install_JMonkey.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/918-install_Android-SDK.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/999-finishCommand.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/GNOME3/010-installGnomeShell.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/02proxy
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/add_mkhomedir
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.master
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.pupils
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.shares
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/auto.teachers
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/client.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/geogebra.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/ldap.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/nsswitch.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/restore-standard-user.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/scratch
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/files/shutDownAt22Clock
-	gelöscht:               laus/scriptsForClasses/UBUNTU1204/xold/916-install_oracle_java_for_geogebra.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/000-INSTALL-SOFTWARE.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/010-setAptCacher.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/020-installUbuntuDesktop.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/030-installLibreOffice.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/040-installLaTex.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/050-installGeogebra.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/060-installVirtualisation.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/070-installDropbox.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/071-repairRightsForDropbox.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/080-installGoogleEarth.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/100-INSTALL-PROGRAMMING-SOFTWARE.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/110-installProgrammingStuff.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/120-installScratch.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/130-installBlueJ.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/140-installGreenfoot.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/150-installEclipseAndPlugins.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/160-installAndroidSDK
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/400-CONFIG-SYSTEM.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/410-hideRecoveryInGrub.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/420-setShutdownTime.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/430-createNFSClient.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/440-installLightdmScriptsSkeleton.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/500-CONFIG-SYSTEM-GSETTINGS.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/510-addUnityGsettingsNoLockout.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/520-addUnityGsettingsNoRemoteSearch.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/530-fixWrongKeyboard.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/600-CONFIG-SYSTEM-USER.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/610-createStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/620-installRestoreStandardUser.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/630-setUmaskTo002.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/700-CONFIG-SYSTEM-USER-LDAP.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/710-createLDAPClient.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/720-manipulatePAMStackForLDAP.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/730-setDefaultGroupForUser.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/740-addLDAPLoginToLightdm.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/750-addChangeSMBPasswordScript.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/800-CONFIG-TESTEE-ENVIROMENT.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/810-blockWWWForTestees.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/820-makeDesktopLinkForTestees.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/910-downgradeSamba.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/999-finishCommand.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/GNOME3/010-installGnomeShell.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/add_mkhomedir
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.master
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.pupils
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.shares
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/auto.teachers
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/blockWWWForTestees.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/changepasswd
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/ldap.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/makeDesktopLinkForTestees.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/nsswitch.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/restore-standard-user.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/files/shutDownAt22Clock
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xfuture/890-blockEnglishDictionaryForTestees.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/050-installGeogebra.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/121-repairScratch.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/160-installJMonkey.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/170-installArduinoIDE.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/180-installFritzing.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/720-addMkhomedirToPam.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/916-install_oracle_java_for_geogebra.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/files/geogebra.conf
-	gelöscht:               laus/scriptsForClasses/UBUNTU1404/xold/files/scratch
-	geändert:               laus/scriptsForClasses/UBUNTU1604/010-update.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/020-install_UBUNTU_Desktop.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/110-installBasicStuffAndTools.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/120-installLibreOffice.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/130-installMultimedia.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1604/150-installGraphics.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/170-installVirtualisation.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/180-installDropbox.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1604/200-INSTALL-PROGRAMMING-SOFTWARE.txt
-	gelöscht:               laus/scriptsForClasses/UBUNTU1604/210-installProgrammingStuff.sh
-	gelöscht:               laus/scriptsForClasses/UBUNTU1604/240-installEclipseAndPlugins.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/180-installOwncloudClient.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/190-installGoogleEarth.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/190-installUbuntuDesktopAddititionals.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/220-installGreenfoot.sh
-	geändert:               laus/scriptsForClasses/UBUNTU1604/todo/230-installBlueJ.sh
-	gelöscht:               laus/scriptsForClasses/UNIFLOW/010-install-securePrinterQueues-Canon.sh
-	gelöscht:               laus/scriptsForClasses/UNIFLOW/INSTALL_RCANON01/010-install-Printer-Canon01.sh
-	gelöscht:               laus/scriptsForClasses/UNIFLOW/INSTALL_RCANON02/010-install-Printer-Canon02.sh
-	gelöscht:               laus/scriptsForClasses/UNIFLOW/INSTALL_RCANON03/010-install-Printer-Canon03.sh
-	gelöscht:               laus/scriptsForClasses/VMS/000-installVMEnviroment.sh
-	gelöscht:               laus/scriptsForClasses/VMS/2015.09.18-updateVMEnviroment.sh
-	gelöscht:               laus/scriptsForClasses/VMS/R003/2015.04.20-updateVM.sh
-	gelöscht:               laus/scriptsForClasses/VMS/R107/2015.04.20-updateVM.sh
-	gelöscht:               laus/scriptsForClasses/VMS/R115/2015.04.20-updateVM.sh
-	gelöscht:               laus/scriptsForClasses/VMS/R1XX/2015.04.20-updateVM.sh
-	gelöscht:               laus/scriptsForClasses/VMS/R314/2015.04.20-updateVM.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/2016.04.06-improveDesktopLinkForTestees.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/files/makeDesktopLinkForTestees.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2010.05.23.updateUser.save.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.01.29-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.02.19-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.02.21-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.03.05-dist-upgrade.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.04.05-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.04.08-update_geogebra.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.04.12-repair_geogebra_sources_list.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.05.16-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.10.17-install_p7zip.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.10.31-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.11.21-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.11.28.installKateVim.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.02.install_full_LaTex
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.09-reinstall_geogebra.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.12-dist-upgrade.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.12-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.16-dist-upgrade.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2013.12.18-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.02.20-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.03.03-repairRightsInHunspell.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.03.19-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.05.05-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.06.03.repair_hunspell
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.06.12.updateUser.save.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.10.09-repair_Dictionaries.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.10.17-updateGeogebra.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.10.17.updateUser.save.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2014.12.10-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.02.26-update_firefox_profil.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.03.25-addUserToGroupDialout.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.04.17-updateUser.save.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.10.08-add_exfat-filesystem.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.10.16-add_inkscape.sh
-	gelöscht:               laus/scriptsForClasses/ZUPDATE/old/2015.11.20-clear_nscd_hosts_cache.sh
+	geändert:               GottfriedsAenderungenGitStatus.txt
+	geändert:               autoinstall/laus/hostsToClasses
+	geändert:               autoinstall/laus/scriptsForClasses/AGI/999-reboot.sh
+	geändert:               autoinstall/laus/scriptsForClasses/LEHRERGERAETE/010-nwbox-L-Orte.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/SAMBA.XFCE/001-mountNFS.always.sh
+	geändert:               autoinstall/laus/scriptsForClasses/SAMBA.XFCE/020-nwbox-mount.always.sh
+	geändert:               autoinstall/laus/scriptsForClasses/SAMBA.XFCE/040-installPrinters.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/SAMBA.XFCE/900-XFReset.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/000-INSTALL-DESKTOP-VARIATION.txt
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/000-rmLog.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/000-rmLog.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/001-mountNFS.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/006-configApt.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/010-update.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/011-unlockApt.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/020-install_UBUNTU_Desktop.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/021-installCompiz.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/025-createNwboxuser.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/030-copyHome.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/031-copyHomeExtra.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/035-configLehrer.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/100-INSTALL-SOFTWARE.txt
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/105-installPPAs.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/110-installBasicStuffAndTools.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/120-installLibreOffice.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/130-installMultimedia.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/140-installGeogebra.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/160-installLaTex.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/161-installLyx.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/170-installVirtualisation.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/180-installDropbox.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/200-installMathe.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/210-installMusikBE.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/211-installDia.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/220-installPythonNB.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/300-INSTALL-PROGRAMMING-SOFTWARE.txt
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/310-installProgrammingStuff.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/900-FINISH-INSTALLATION.txt
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/900-update20160822.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/999-finishCommand.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/180-installOwncloudClient.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/190-installFreemind.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/190-installGoogleEarth.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/190-installUbuntuDesktopAddititionals.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/220-installGreenfoot.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/230-installBlueJ.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/UBUNTU1604/todo/320-installEclipseAndPlugins.sh
+	geändert:               autoinstall/laus/scriptsForClasses/WIN7VB/010-copyWin-VB.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/005-setAptCacher.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/010-installXFCE4.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/020-installKGames.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/030-copyFiles.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/031-copyFiles.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/040-installCodecs.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/800-installExtra.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/850-installX2go.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/900-mountOverlayFS.always.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/999-reboot.sh
+	gelöscht:               autoinstall/laus/scriptsForClasses/XUBUNTU1604/todo/041-installHostapd.sh
+	gelöscht:               files/nwboxuser/.ICEauthority
+	gelöscht:               files/nwboxuser/.Xauthority
+	gelöscht:               files/nwboxuser/.bash_history
+	gelöscht:               files/nwboxuser/.cache/fontconfig/04aabc0a78ac019cf9454389977116d2-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/087e1975ba9a574b140bb1df193bf770-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/0c9eb80ebd1c36541ebe2852d3bb0c49-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/16326683038b281783a0ef8c680e3a10-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/188ac73a183f12857f63bb60a4a6d603-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/1ac9eb803944fde146138c791f5cc56a-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/2bae36bb929c5b1290cc66cecf2b11b0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/2cd17615ca594fa2959ae173292e504c-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/30829fa25452a46451e813d634d7f916-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/365b55f210c0a22e9a19e35191240f32-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/385c0604a188198f04d133e54aba7fe7-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/467c019e582ee353435ea5c21d137ef6-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/4b14b093aebc79c320de5e86ae1d3314-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/52f7bdb7ce746bfd7eaa1985bd9cfa93-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/551ecf3b0e8b0bca0f25c0944f561853-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/56cf4f4769d0f4abc89a4895d7bd3ae1-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/57e423e26b20ab21d0f2f29c145174c3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/6333f38776742d18e214673cd2c24e34-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/707971e003b4ae6c8121c3a920e507f5-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/75114ca45c98e8a441da0ff356701271-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/767a8244fc0220cfb567a839d0392e0b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/83bf95040141907cd45bb53cf7c1c148-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/8801497958630a81b71ace7c5f9b32a8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/8a687c406b77f27d99abfeeba937fcce-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/8f02d4cb045bd6ce15663e43f347c9f8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/95530828ff6c81d309f8258d8d02a23e-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/99e8ed0e538f840c565b6ed5dad60d56-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/CACHEDIR.TAG
+	gelöscht:               files/nwboxuser/.cache/fontconfig/a6d8cf8e4ec09cdbc8633c31745a07dd-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/b47c4e1ecd0709278f4910c18777a504-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/b9d506c9ac06c20b433354fa67a72993-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/bab58bb527bb656aaa9f116d68a48d89-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/bf3b770c553c462765856025a94f1ce6-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/c277e94e32b20404286a1ddafa5a80f0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/c4f8cd936e32aa63d90660cbbf4d74a0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/c855463f699352c367813e37f3f70ea7-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/cabbd14511b9e8a55e92af97fb3a0461-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/cba07694886bf8bbc441deea9dc5842f-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/cdd862819a105ebd84444cb99c7fc194-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/ce677e824a231659fde4a3a246a10ea3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/d0972c3d32f097851eb916381fc38920-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/d52a8644073d54c13679302ca1180695-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/dc05db6664285cc2f12bf69c139ae4c3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/e0c1a6ba06fd9ea781faace1ebc0ffdd-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/e49e89034d371f0f9de17aab02136486-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/f1f2465696798768e9653f19e17ccdc8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.cache/fontconfig/fe547fea3a41b43a38975d292a2b19c7-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.config/QtProject.conf
+	geändert:               files/nwboxuser/.config/Thunar/uca.xml
+	geändert:               files/nwboxuser/.config/Trolltech.conf
+	geändert:               files/nwboxuser/.config/VirtualBox/VirtualBox.xml
+	gelöscht:               files/nwboxuser/.config/autostart/Monitor.desktop
+	geändert:               files/nwboxuser/.config/compiz-1/compizconfig/Default.ini
+	geändert:               files/nwboxuser/.config/dconf/user
+	gelöscht:               files/nwboxuser/.config/desktop/icons.screen0.rc
+	geändert:               files/nwboxuser/.config/gtk-2.0/gtkfilechooser.ini
+	gelöscht:               files/nwboxuser/.config/help.rc
+	gelöscht:               files/nwboxuser/.config/helpers.rc
+	gelöscht:               files/nwboxuser/.config/libfm/libfm.conf
+	geändert:               files/nwboxuser/.config/libreoffice/4/user/psprint/pspfontcache
+	geändert:               files/nwboxuser/.config/libreoffice/4/user/registrymodifications.xcu
+	geändert:               files/nwboxuser/.config/libreoffice/4/user/uno_packages/cache/log.txt
+	geändert:               files/nwboxuser/.config/mimeapps.list
+	gelöscht:               files/nwboxuser/.config/panel/launcher-1/14651574531.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-14/14688737911.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-14/14688738592.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-16/14652935623.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-17/14654030871.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-2/14651580932.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-20/14654031732.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653177532.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653178013.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653178534.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653180265.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653181026.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653182337.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653182948.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14653183659.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/146531840810.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/146531844611.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/146531849012.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/146531853113.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/146531857514.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654033823.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654035574.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654036305.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654036766.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654052891.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654053482.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654053853.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654054264.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654054605.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654056396.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654056787.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654057128.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/14654057539.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-21/146540578310.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-22/14653022437.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-23/14653022498.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-25/146531923615.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-26/146532012116.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-26/146540619912.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-27/146532021017.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-28/14658394061.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-29/14664460541.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-3/14651607931.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-32/14658405593.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-33/14658409164.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-4/14652928071.desktop
+	gelöscht:               files/nwboxuser/.config/panel/launcher-8/14652935502.desktop
+	gelöscht:               files/nwboxuser/.config/panel/whiskermenu-1.rc
+	gelöscht:               files/nwboxuser/.config/panel/whiskermenu-15.rc
+	gelöscht:               files/nwboxuser/.config/pavucontrol.ini
+	geändert:               files/nwboxuser/.config/pulse/cookie
+	gelöscht:               files/nwboxuser/.config/pulse/d114cf9ad7ee4035ad17fa5149b22f45-card-database.tdb
+	gelöscht:               files/nwboxuser/.config/pulse/d114cf9ad7ee4035ad17fa5149b22f45-default-sink
+	gelöscht:               files/nwboxuser/.config/pulse/d114cf9ad7ee4035ad17fa5149b22f45-default-source
+	gelöscht:               files/nwboxuser/.config/pulse/d114cf9ad7ee4035ad17fa5149b22f45-device-volumes.tdb
+	gelöscht:               files/nwboxuser/.config/pulse/d114cf9ad7ee4035ad17fa5149b22f45-stream-volumes.tdb
+	gelöscht:               files/nwboxuser/.config/xfce4/desktop/icons.screen0-1264x929.rc
+	geändert:               files/nwboxuser/.config/xfce4/desktop/icons.screen0.rc
+	geändert:               files/nwboxuser/.config/xfce4/panel/whiskermenu-15.rc
+	geändert:               files/nwboxuser/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+	geändert:               files/nwboxuser/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+	geändert:               files/nwboxuser/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+	gelöscht:               files/nwboxuser/.fontconfig/04aabc0a78ac019cf9454389977116d2-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/087e1975ba9a574b140bb1df193bf770-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/0c9eb80ebd1c36541ebe2852d3bb0c49-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/16326683038b281783a0ef8c680e3a10-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/188ac73a183f12857f63bb60a4a6d603-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/1ac9eb803944fde146138c791f5cc56a-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/2bae36bb929c5b1290cc66cecf2b11b0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/2cd17615ca594fa2959ae173292e504c-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/30829fa25452a46451e813d634d7f916-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/365b55f210c0a22e9a19e35191240f32-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/385c0604a188198f04d133e54aba7fe7-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/467c019e582ee353435ea5c21d137ef6-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/4794a0821666d79190d59a36cb4f44b5-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/4b14b093aebc79c320de5e86ae1d3314-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/4c599c202bc5c08e2d34565a40eac3b2-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/52f7bdb7ce746bfd7eaa1985bd9cfa93-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/551ecf3b0e8b0bca0f25c0944f561853-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/56cf4f4769d0f4abc89a4895d7bd3ae1-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/573ec803664ed168555e0e8b6d0f0c7f-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/57e423e26b20ab21d0f2f29c145174c3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/6333f38776742d18e214673cd2c24e34-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/6aa41aa22e18b8fa06a12da28ea9c28b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/707971e003b4ae6c8121c3a920e507f5-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/75114ca45c98e8a441da0ff356701271-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/767a8244fc0220cfb567a839d0392e0b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/83bf95040141907cd45bb53cf7c1c148-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/8801497958630a81b71ace7c5f9b32a8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/8a687c406b77f27d99abfeeba937fcce-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/8f02d4cb045bd6ce15663e43f347c9f8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/95530828ff6c81d309f8258d8d02a23e-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/99e8ed0e538f840c565b6ed5dad60d56-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/CACHEDIR.TAG
+	gelöscht:               files/nwboxuser/.fontconfig/a6d8cf8e4ec09cdbc8633c31745a07dd-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/b47c4e1ecd0709278f4910c18777a504-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/b9d506c9ac06c20b433354fa67a72993-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/bab58bb527bb656aaa9f116d68a48d89-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/bf3b770c553c462765856025a94f1ce6-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/c277e94e32b20404286a1ddafa5a80f0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/c4f8cd936e32aa63d90660cbbf4d74a0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/c855463f699352c367813e37f3f70ea7-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/cabbd14511b9e8a55e92af97fb3a0461-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/cba07694886bf8bbc441deea9dc5842f-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/cdd862819a105ebd84444cb99c7fc194-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/ce677e824a231659fde4a3a246a10ea3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/d0972c3d32f097851eb916381fc38920-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/d3e5c4ee2ceb1fc347f91d4cefc53bc0-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/d52a8644073d54c13679302ca1180695-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/d589a48862398ed80a3d6066f4f56f4c-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/d82eb4fd963d448e2fcb7d7b793b5df3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/dc05db6664285cc2f12bf69c139ae4c3-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/e0aa53bcfa504e64f87823c16bc01eb6-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/e0c1a6ba06fd9ea781faace1ebc0ffdd-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/e13b20fdb08344e0e664864cc2ede53d-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/e49e89034d371f0f9de17aab02136486-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/e52a45a1c8c8fe895fc0fc8c4e6999b8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/f1f2465696798768e9653f19e17ccdc8-le32d4.cache-6
+	gelöscht:               files/nwboxuser/.fontconfig/fe547fea3a41b43a38975d292a2b19c7-le32d4.cache-6
+	geändert:               files/nwboxuser/.local/share/gvfs-metadata/home
+	gelöscht:               files/nwboxuser/.local/share/gvfs-metadata/home-73af33fe.log
+	gelöscht:               files/nwboxuser/.local/share/gvfs-metadata/root
+	gelöscht:               files/nwboxuser/.local/share/gvfs-metadata/root-0d8bcca1.log
+	gelöscht:               files/nwboxuser/.local/share/gvfs-metadata/root-11b187c8.log
+	gelöscht:               files/nwboxuser/.local/share/gvfs-metadata/root-55278e1a.log
+	gelöscht:               files/nwboxuser/.local/share/gvfs-metadata/root-79a41fbf.log
+	geändert:               files/nwboxuser/.local/share/keyrings/login.keyring
+	geändert:               files/nwboxuser/.local/share/keyrings/user.keystore
+	geändert:               files/nwboxuser/.local/share/recently-used.xbel
+	geändert:               files/nwboxuser/.local/share/session_migration-xubuntu
+	geändert:               files/nwboxuser/.local/share/zeitgeist/activity.sqlite
+	geändert:               files/nwboxuser/.local/share/zeitgeist/activity.sqlite-shm
+	geändert:               files/nwboxuser/.local/share/zeitgeist/activity.sqlite-wal
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/flintlock
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/iamchert
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/position.DB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/position.baseA
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/position.baseB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/postlist.DB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/postlist.baseA
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/postlist.baseB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/record.DB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/record.baseA
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/record.baseB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/termlist.DB
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/termlist.baseA
+	geändert:               files/nwboxuser/.local/share/zeitgeist/fts.index/termlist.baseB
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/SiteSecurityServiceState.txt
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/adblockplus/elemhide.css
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/adblockplus/patterns-backup1.ini
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/adblockplus/patterns-backup3.ini
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/adblockplus/patterns-backup4.ini
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/adblockplus/patterns-backup5.ini
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/adblockplus/patterns.ini
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/cookies.sqlite
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/crashes/store.json.mozlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452525577901.d4c1d81f-4bf5-4c0c-a5fe-49854134db98.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452525907163.1e6e6e80-a7fb-455e-9cc4-0917474ee8a4.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452526409824.74d184b0-b050-4354-99cc-a83e53cd384e.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452526409826.12c3698f-3c5b-4599-bd2a-492f49449922.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452527047536.ff9ccfcb-f6c6-4d1d-b0c6-8a56f63db9ad.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452527145364.f2fb3893-5797-40e4-8576-0dc90d1d7c32.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452527156562.8d2c0b92-4412-4365-bd53-97a2a1f06c3a.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452527166620.b21054e1-a150-4f30-897c-7e03974f5632.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452527174245.7b4d8706-ce29-49c1-aa39-95d672e4be5d.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452527311355.5c7aeed5-e813-4e9b-a993-12c1866ee323.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452531485737.d241e630-6df0-4824-b281-da545f6b2f6c.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452532760774.92e71f4b-d710-45f9-91a6-962c65f81440.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452532927737.a05cdaf8-9263-41bd-ba56-8a42914b3a90.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452532938491.77b83d5f-dc3e-4c40-b457-4788ba0f7c67.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452614754582.ee1d79c6-f723-4504-a88b-b651d5920808.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452615088280.34192744-82b1-4da8-8a3a-4beff7321fd7.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452615926485.382874b3-6386-4543-9084-816a800cf31f.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452617387338.46092a31-4d53-4aba-8dd3-3a0abb43b228.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452617712404.269b4b7e-d75d-4845-9f19-69c65c362c9d.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452858724662.8e5bf3c6-b737-4407-9a4c-f2c82af87600.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1452859324678.a7d2449a-c645-4859-a333-688e57e9ef13.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1453139298063.87b8ae0b-0705-4c91-9a0f-71be5222c633.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1453139800911.0d64f216-d5a1-46dc-8071-f9e4a49561eb.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1453139909840.0e2ff61d-c518-4893-a252-45ae5d5a2b39.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1454090970912.10925137-b278-4c09-8e0e-8af85f7d724a.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1454090982583.5f405d0d-6b7a-4e01-918a-170012cda86d.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-01/1454091221872.a5421e28-347c-46db-ae80-94b47df03905.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-02/1455553982516.5483312a-fe75-4204-8c1f-40da85458483.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-02/1455553982518.4cb478f2-b115-4b9b-9709-5c489d34e8f3.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-02/1455554015754.e9bc1be5-9f2b-4425-b34e-5733c132398f.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-02/1455554031621.7ce34b91-51ba-4fbb-b93d-e1d639823fca.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-02/1455554305037.714c7ad8-16e9-459a-a468-4507efb1951d.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-02/1456234769725.377fbf77-97ff-470b-810b-61716b67efe2.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-03/1457427898401.57eefb29-c528-4c63-98ab-0c74fcebcef6.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-03/1457445769197.2353b317-ef4b-4974-809e-e6979f1840a2.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-03/1457452825427.8bd02530-7b48-4fa7-87dd-04412959d043.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-03/1457454847812.59cb89bd-d78b-4cce-a5d0-9c29a3cf84ca.main.jsonlz4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-03/1457457740013.46b1e6cc-ca98-4f7c-9d39-7563eb6f8bab.main.jsonlz4
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/session-state.json
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions.ini
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions.json
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{02450914-cdd9-410f-b1da-db004e18c671}.xpi
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/META-INF/manifest.mf
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/META-INF/mozilla.rsa
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/META-INF/mozilla.sf
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/catalog_item_details_template.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/catalog_items_template.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/excerpt.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/library.css
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/library.xul
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/library_metadata_template.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/library_template.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/overlay.js
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/content/synchronize.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/install.rdf
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/ca/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/da-DK/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/de-DE/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/el-GR/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/en-US/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/eo/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/es-ES/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/fi-FI/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/fr-FR/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/he-IL/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/hu-HU/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/it-IT/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/ja-JP/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/lt-LT/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/nl-NL/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/pl-PL/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/pt-BR/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/pt-PT/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/ru-RU/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/sv-SE/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/tr-TR/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/zh-CN/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{5384767E-00D9-40E9-B72F-9CC39D655D6F}/locale/zh-TW/whatsnew.html
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/extensions/{b9db16a4-6edc-47ec-a1f4-b86292ed211d}.xpi
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/formhistory.sqlite
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/menuedit.rdf
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/permissions.sqlite
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/places.sqlite
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/pluginreg.dat
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/prefs.js
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/0d64f216-d5a1-46dc-8071-f9e4a49561eb
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/0fe06f63-de91-423a-883b-d4aff7d6ec56
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/189f04ee-3b19-456c-95b8-854bcd7be967
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/23d107ab-f5bf-489a-938f-231fce2c8d70
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/2de4aa21-e6a3-4884-98ba-5511225d35df
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/377fbf77-97ff-470b-810b-61716b67efe2
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/3bd4a099-d1b3-4a05-8e18-2ce2e9191567
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/3d1b6532-da76-496f-ae5d-a8d78f4280e4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/490d8cc2-8803-45ca-b2ea-6545acfb7882
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/49210b2f-ad4f-411c-859a-49ec16e0e487
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/518a25b8-918b-40d3-8247-0f4ebaf006a4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/5de29ef9-1954-4c51-9241-b0ccbf439300
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/60abfe62-1079-4013-89b1-024a10490a6f
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/62c31e7e-6268-4ee6-8299-d60999c4e7c4
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/69474c01-302d-4a6c-bfd8-f02773afecc8
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/77ac3bac-1491-4ee0-a571-930672d9c1ff
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/87b8ae0b-0705-4c91-9a0f-71be5222c633
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/8bd02530-7b48-4fa7-87dd-04412959d043
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/a2a836da-7690-4b9b-81bf-914fd424b429
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/af2b699c-7cc1-4e5c-ad4f-ac58d29a826c
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/b21054e1-a150-4f30-897c-7e03974f5632
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/c13e9e35-e68e-4a38-9134-1b57f68e14f0
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/c7178ff1-079c-4162-b4b3-fca38df0aac7
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/c757df99-258a-4c1e-a0d1-c011be8ec2a1
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/c8283386-7b8a-49a2-82cb-945a79cd726e
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/cdfc9c91-ea5b-4af8-88d7-0086b55e51d9
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/d5d2cb55-fa65-479f-9448-090d904a7ea5
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/e3311f17-5cce-4b42-bce8-612440fcc41a
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/e9bc1be5-9f2b-4425-b34e-5733c132398f
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/e9e06144-4a69-4160-bd8c-6512de579ced
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/ecfc44c2-a55f-418b-8f19-f9a401e5f4c8
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/fbf3d929-843f-4fc9-8906-2acdff2b89e6
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/sessionCheckpoints.json
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/sessionstore.bak
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/sessionstore.bak-20140924083922
+	gelöscht:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/sessionstore.js
+	geändert:               files/nwboxuser/.mozilla/firefox/5c0x9co6.default/xulstore.json
+	geändert:               files/nwboxuser/.mozilla/firefox/Crash Reports/InstallTime20160728203720
+	gelöscht:               files/nwboxuser/.x2go/C-nwboxuser-50-1470914291_stS1XSHADnwboxuserXSHADPP0_dp24
+	gelöscht:               files/nwboxuser/.x2go/C-nwboxuser-50-1470914549_stS1XSHADnwboxuserXSHADPP0_dp24
+	geändert:               files/nwboxuser/.xsession-errors
+	geändert:               files/nwboxuser/.xsession-errors.old
+	gelöscht:               files/nwboxuser/Dokumente/Blank.potx.lnk
+	gelöscht:               files/nwboxuser/Schreibtisch/AnleitungenLehrer.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/CD-oeffnen.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/DVD-smplayer.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/DVD-vlc.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/Hinweise.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/Schulbuch.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/Sokrates.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/VWA-Info.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/WebUntis.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/Win7.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/manuals.desktop
+	gelöscht:               files/nwboxuser/Schreibtisch/orte.desktop
+	geändert:               files/sbin/dt-reset
+	geändert:               files/sbin/sichern
+	geändert:               files/sbin/sichern-n
+	geändert:               files/sbin/sichern_POL
+	geändert:               files/sbin/sichern_POL-n
+	geändert:               files/sbin/start-from-serverx.sh
 
 Unversionierte Dateien:
   (benutzen Sie "git add <Datei>...", um die Änderungen zum Commit vorzumerken)
 
-	laus/scriptsForClasses/AGI/
-	laus/scriptsForClasses/LEHRERGERAETE/
-	laus/scriptsForClasses/SAMBA.XFCE/
-	laus/scriptsForClasses/UBUNTU1604/000-rmLog.sh
-	laus/scriptsForClasses/UBUNTU1604/001-mountNFS.always.sh
-	laus/scriptsForClasses/UBUNTU1604/006-configApt.sh
-	laus/scriptsForClasses/UBUNTU1604/011-unlockApt.always.sh
-	laus/scriptsForClasses/UBUNTU1604/021-installCompiz.sh
-	laus/scriptsForClasses/UBUNTU1604/025-createNwboxuser.sh
-	laus/scriptsForClasses/UBUNTU1604/030-copyHome.always.sh
-	laus/scriptsForClasses/UBUNTU1604/031-copyHomeExtra.always.sh
-	laus/scriptsForClasses/UBUNTU1604/035-configLehrer.always.sh
-	laus/scriptsForClasses/UBUNTU1604/105-installPPAs.sh
-	laus/scriptsForClasses/UBUNTU1604/161-installLyx.sh
-	laus/scriptsForClasses/UBUNTU1604/200-installMathe.sh
-	laus/scriptsForClasses/UBUNTU1604/210-installMusikBE.sh
-	laus/scriptsForClasses/UBUNTU1604/211-installDia.sh
-	laus/scriptsForClasses/UBUNTU1604/220-installPythonNB.sh
-	laus/scriptsForClasses/UBUNTU1604/300-INSTALL-PROGRAMMING-SOFTWARE.txt
-	laus/scriptsForClasses/UBUNTU1604/310-installProgrammingStuff.sh
-	laus/scriptsForClasses/UBUNTU1604/900-update20160822.sh
-	laus/scriptsForClasses/UBUNTU1604/todo/190-installFreemind.sh
-	laus/scriptsForClasses/UBUNTU1604/todo/320-installEclipseAndPlugins.sh
-	laus/scriptsForClasses/WIN7VB/
-	laus/scriptsForClasses/XUBUNTU1604/
+	autoinstall/.gitignore
+	autoinstall/laus/scriptsForClasses.000/
+	autoinstall/laus/scriptsForClasses/LEHRERGERAETE/020-makeSbaDir.sh
+	autoinstall/laus/scriptsForClasses/VNC/
+	autoinstall/laus/scriptsForClasses/XUBUNTU-CFG/
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/000-INSTALL-DESKTOP-VARIATION.txt
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/010-mountNFS.always.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/020-rmLog.always.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/030-unlockApt.always.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/035-configApt.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/040-installXubuntuDesktop.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/050-installCompiz.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/060-createNwboxuser.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/100-INSTALL-SOFTWARE.txt
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/105-installPPAs.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/110-installBasicStuffAndTools.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/120-installLibreOffice.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/130-installMultimedia.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/160-installLaTex.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/161-installLyx.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/170-installVirtualisation.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/180-installDropbox.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/200-installMathe.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/210-installMusikBE.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/211-installDia.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/220-installPythonNB.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/230-installKGames.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/300-INSTALL-PROGRAMMING-SOFTWARE.txt
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/310-installProgrammingStuff.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/900-FINISH-INSTALLATION.txt
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/900-update20160822.sh
+	autoinstall/laus/scriptsForClasses/XUBUNTU1604/999-finishCommand.sh
+	files/VNC/
+	files/dt-main.sbib/
+	files/etc/lightdm/lightdm.conf.d/01-login.conf
+	files/nwboxuser/.config/VirtualBox/VBoxSVC.log
+	files/nwboxuser/.config/autostart/deja-dup-monitor.desktop
+	files/nwboxuser/.config/autostart/start-from-serverx.desktop
+	files/nwboxuser/.config/chromium/
+	files/nwboxuser/.config/evolution/
+	files/nwboxuser/.config/libaccounts-glib/
+	files/nwboxuser/.config/pulse/1c6e82f2bba34f7da292ec63273ba9bb-card-database.tdb
+	files/nwboxuser/.config/pulse/1c6e82f2bba34f7da292ec63273ba9bb-default-sink
+	files/nwboxuser/.config/pulse/1c6e82f2bba34f7da292ec63273ba9bb-default-source
+	files/nwboxuser/.config/pulse/1c6e82f2bba34f7da292ec63273ba9bb-device-volumes.tdb
+	files/nwboxuser/.config/pulse/1c6e82f2bba34f7da292ec63273ba9bb-stream-volumes.tdb
+	files/nwboxuser/.config/pulse/a0b5bae50f934535a2d82e48657b2826-card-database.tdb
+	files/nwboxuser/.config/pulse/a0b5bae50f934535a2d82e48657b2826-default-sink
+	files/nwboxuser/.config/pulse/a0b5bae50f934535a2d82e48657b2826-default-source
+	files/nwboxuser/.config/pulse/a0b5bae50f934535a2d82e48657b2826-device-volumes.tdb
+	files/nwboxuser/.config/pulse/a0b5bae50f934535a2d82e48657b2826-stream-volumes.tdb
+	files/nwboxuser/.config/pulse/f00c02ff14f0435887e882c000906e36-card-database.tdb
+	files/nwboxuser/.config/pulse/f00c02ff14f0435887e882c000906e36-default-sink
+	files/nwboxuser/.config/pulse/f00c02ff14f0435887e882c000906e36-default-source
+	files/nwboxuser/.config/pulse/f00c02ff14f0435887e882c000906e36-device-volumes.tdb
+	files/nwboxuser/.config/pulse/f00c02ff14f0435887e882c000906e36-stream-volumes.tdb
+	files/nwboxuser/.config/xfce4.000/
+	files/nwboxuser/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+	files/nwboxuser/.gconf/
+	files/nwboxuser/.local/share/evolution/
+	files/nwboxuser/.local/share/gvfs-metadata/home-ad04fa47.log
+	files/nwboxuser/.local/share/mime/
+	files/nwboxuser/.macromedia/
+	files/nwboxuser/.mozilla/firefox/5c0x9co6.default/datareporting/archived/2016-09/
+	files/nwboxuser/.mozilla/firefox/5c0x9co6.default/enumerate_devices.txt
+	files/nwboxuser/.mozilla/firefox/5c0x9co6.default/gmp-gmpopenh264/1.6/
+	files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/3f7ef919-141c-4a8b-8c72-10cf9f1deba0
+	files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/7daaa4b7-66df-4cf1-a53a-f64100261dae
+	files/nwboxuser/.mozilla/firefox/5c0x9co6.default/saved-telemetry-pings/8e395e83-5df3-4821-a425-3e96265c00f4
+	files/nwboxuser/.pki/
+	files/sbin/login-script.sh
 
 keine Änderungen zum Commit vorgemerkt (benutzen Sie "git add" und/oder "git commit -a")
