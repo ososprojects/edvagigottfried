@@ -1,5 +1,7 @@
 #! /bin/bash
 
+export DEBIAN_FRONTEND=noninteractive
+
 #apt-get -y update
 
 ## some Multimedia - Codecs
@@ -10,8 +12,8 @@ apt-get install -y libxine2 libxine2-ffmpeg
 
 ## Stuff to play DVDs
 apt-get -y install libdvdread4
-# run script to make libdvdread4 working
-/usr/share/doc/libdvdread4/install-css.sh
+apt-get -y install libdvd-pkg
+dpkg-reconfigure libdvd-pkg
 
 ## Media - Players
 apt-get -y install audacity smplayer smtube
