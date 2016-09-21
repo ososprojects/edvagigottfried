@@ -12,8 +12,8 @@ apt-get install -y libxine2 libxine2-ffmpeg
 
 ## Stuff to play DVDs
 apt-get -y install libdvdread4
-apt-get -y install libdvd-pkg
-dpkg-reconfigure libdvd-pkg
+apt-get -y install libdvd-pkg   # eingefügt 2016-09-19
+dpkg-reconfigure libdvd-pkg     # eingefügt 2016-09-19
 
 ## Media - Players
 apt-get -y install audacity smplayer smtube
