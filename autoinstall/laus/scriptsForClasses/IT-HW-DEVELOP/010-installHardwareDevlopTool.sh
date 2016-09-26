@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ## TODO:
-##   !!!NOT TESTED TG !!!
+##  TESTED on r407pc16 TG !!!
 
 export DEBIAN_FRONTEND=noninteractive
 
@@ -9,7 +9,7 @@ export DEBIAN_FRONTEND=noninteractive
 ## instructions from http://kicad-pcb.org/download/ubuntu/
 sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
 sudo apt update
-sudo apt install kicad
-sudo apt install kicad-locale-de
+sudo apt -y install kicad
+sudo apt -y install kicad-locale-de
 
 
