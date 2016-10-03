@@ -99,4 +99,5 @@ a, a:visited, a:active, a:link
 a:hover
 {
    color: #93C600;
+   cursor: pointer;
 }

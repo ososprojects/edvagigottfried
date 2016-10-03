@@ -9,7 +9,7 @@ var epubOverlay =
 {
    init: function()
    {
-      var version = "1.5.0.6";
+      var version = "1.5.0.9";
 
       var pref = Cc["@mozilla.org/preferences-service;1"].getService(Ci.nsIPrefService).getBranch("extensions.epubreader.");
       var lastVersion = "";
@@ -159,61 +159,50 @@ var epubOverlay =
 
    addButton: function()
    {
-      var versionChecker = Components.classes["@mozilla.org/xpcom/version-comparator;1"]
-                           .getService(Components.interfaces.nsIVersionComparator);
-
-      var appInfo = Components.classes["@mozilla.org/xre/app-info;1"]
-                    .getService(Components.interfaces.nsIXULAppInfo);
-
       var pref = Components.classes["@mozilla.org/preferences-service;1"]
                  .getService(Components.interfaces.nsIPrefService).getBranch("extensions.epubreader.");
 
-      var app_firefox = "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}";
+      var buttonAdded = pref.getBoolPref("button_added");
 
-      if(appInfo.ID == app_firefox && versionChecker.compare(appInfo.version, "4.0b1") >= 0)
+      if(buttonAdded == false)
       {
-         var buttonAdded = pref.getBoolPref("button_added");
-
-         if(buttonAdded == false)
+         try
          {
-            try
+            var nav = document.getElementById("nav-bar");
+            var set = nav.currentSet;
+
+            if(!set.match(/.*epubreader-catalog-button.*/))
             {
-               var nav = document.getElementById("nav-bar");
-               var set = nav.currentSet;
+               set = set + ",epubreader-catalog-button";
 
-               if(!set.match(/.*epubreader-catalog-button.*/))
+               nav.setAttribute("currentset", set);
+               nav.currentSet = set;
+               document.persist("nav-bar", "currentset");
+
+               try
                {
-                  set = set + ",epubreader-catalog-button";
-
-                  nav.setAttribute("currentset", set);
-                  nav.currentSet = set;
-                  document.persist("nav-bar", "currentset");
-
-                  try
-                  {
-                     BrowserToolboxCustomizeDone(true);
-                  }
-                  catch(e)
-                  {
-                  }
-
-                  window.setTimeout
-                  (
-                     function()
-                     {
-                        var button = document.getElementById("epubreader-catalog-button");
-                        var notification = document.getElementById("epubreader-button-notification");
-                        notification.openPopup(button, "after_end", 0, 0, false, false);
-                     },
-                     5000
-                  );
+                  BrowserToolboxCustomizeDone(true);
+               }
+               catch(e)
+               {
                }
 
-               pref.setBoolPref("button_added", true);
+               window.setTimeout
+               (
+                  function()
+                  {
+                     var button = document.getElementById("epubreader-catalog-button");
+                     var notification = document.getElementById("epubreader-button-notification");
+                     notification.openPopup(button, "after_end", 0, 0, false, false);
+                  },
+                  5000
+               );
             }
-            catch(e)
-            {
-            }
+
+            pref.setBoolPref("button_added", true);
+         }
+         catch(e)
+         {
          }
       }
    },

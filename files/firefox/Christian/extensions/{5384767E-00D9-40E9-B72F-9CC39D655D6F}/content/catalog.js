@@ -1327,7 +1327,13 @@ var catalog =
          ch.init(ch.MD5);
          ch.update(data, data.length);
          var hash = ch.finish(false);
-         var hashString = [toHexString(hash.charCodeAt(j)) for (j in hash)].join("");
+
+         var hashString = "";
+         
+         for(var j = 0; j < hash.length; j++)
+         {
+            hashString = hashString + toHexString(hash.charCodeAt(j));
+         }       
 
          if(hashString == catalogs[i]['code'] || catalogs[i]['name'] == "Calibre2Opds")
          {

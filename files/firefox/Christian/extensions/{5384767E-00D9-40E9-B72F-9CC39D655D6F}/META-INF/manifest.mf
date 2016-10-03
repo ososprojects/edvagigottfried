@@ -2,13 +2,13 @@ Manifest-Version: 1.0
 
 Name: install.rdf
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: uz+4h8zET/5gm+lFS/ZC7g==
-SHA1-Digest: L+bxPUJBKY0eyAt4jZ56O/nO7T0=
+MD5-Digest: cMmg14mGQ4NW+5xqPw/QEQ==
+SHA1-Digest: 3XwY66tTzNpzoHy6np1LEjiXQDk=
 
 Name: chrome.manifest
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: TlbfMRV7dqEGT4i50KdBQg==
-SHA1-Digest: FBVFX4UjFEIErAzCSiPnUICM+lI=
+MD5-Digest: y5st00jkPwpBDwZ+ppOUEQ==
+SHA1-Digest: TQVYAkMILVbtzL+/rWAPjDHq/+E=
 
 Name: content/aboutEpubcatalog.js
 Digest-Algorithms: MD5 SHA1
@@ -27,8 +27,8 @@ SHA1-Digest: zRLpW7Cw0r1TFm55ZdL1U7MIIZ0=
 
 Name: content/catalog.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 6BZufXXmxhWJh1MIe8Xvzw==
-SHA1-Digest: tlEDayJCupkTIrE483+0eZTNrcU=
+MD5-Digest: UUQvYWEPOrOQizbOGP7Ulw==
+SHA1-Digest: Zlw05bzq1yNk5h1lyonk2CDBw+4=
 
 Name: content/catalog.xul
 Digest-Algorithms: MD5 SHA1
@@ -42,8 +42,8 @@ SHA1-Digest: JCbYxzTrAYctulszWgpNdvr+YL4=
 
 Name: content/catalog_item_details_template.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: JM8osvM+KH31g+epeqeerg==
-SHA1-Digest: Dblkl5vXpcFS7SLUhKVCTBTt7tU=
+MD5-Digest: B8lVODlFrrg9cTI+K7OLPw==
+SHA1-Digest: iTbYR9I9B6bNg8fZNNfFQemVPGU=
 
 Name: content/catalog_items.html
 Digest-Algorithms: MD5 SHA1
@@ -52,8 +52,8 @@ SHA1-Digest: kBc/yXOwIj2rO5aIjQG8zIUjW+A=
 
 Name: content/catalog_items_template.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: hO46EWaRH+qESo3dZBTGdA==
-SHA1-Digest: /1gXPWU65COJU9sN/4f5MFZCEUo=
+MD5-Digest: Fb+tSxj9GAvYUA9+k36nfg==
+SHA1-Digest: 4rqs5rZ4fIdfZb2hyy/OoEuFuzY=
 
 Name: content/catalog_nav.html
 Digest-Algorithms: MD5 SHA1
@@ -62,8 +62,8 @@ SHA1-Digest: uYBAHNutfATCsEzXtQfM7HGGi4A=
 
 Name: content/content.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: EF2qBq8FfJftU67/kcQoBw==
-SHA1-Digest: aVu4kyve+sTpfyba45LIVIjEJkY=
+MD5-Digest: S0gl59jhBETAsuVJfmkjyg==
+SHA1-Digest: +6S27yCeCchc/JJGLmHNifq6gpA=
 
 Name: content/epub_template.css
 Digest-Algorithms: MD5 SHA1
@@ -107,8 +107,8 @@ SHA1-Digest: H+ciy1s8unjpS+Ni1Ey3fT7Zw7I=
 
 Name: content/excerpt.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: WwNuWwJXBSBZtM+L3YAzBQ==
-SHA1-Digest: ItzwRzZhCZez8U0Se2IrroVf4/g=
+MD5-Digest: 6CJRiKQ2BgpdUz04puPo6w==
+SHA1-Digest: oMO6JVE9AX1OzqSvMN5P88aY8QM=
 
 Name: content/info.css
 Digest-Algorithms: MD5 SHA1
@@ -117,8 +117,8 @@ SHA1-Digest: i69j9/6RPYN6IKVI2NxrmdfmSJQ=
 
 Name: content/library.css
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: q81Jud37IIEg78/s1bswtQ==
-SHA1-Digest: yReLs6kRa0+34EKfXdUJdi+VuVQ=
+MD5-Digest: /G2/86/vOjpYWCRRqRpkOg==
+SHA1-Digest: 5o5l3cX/OzUHHxZIS9v5GLs8klo=
 
 Name: content/library.js
 Digest-Algorithms: MD5 SHA1
@@ -127,8 +127,8 @@ SHA1-Digest: jrc7N+apZbliqtk1ygeeSVYIkd4=
 
 Name: content/library.xul
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: WQciIhuGFKEch7T1Lr7Qrg==
-SHA1-Digest: aylFPXWfZg4hQUSXMqn/bdu7Tlk=
+MD5-Digest: jjf7AXvm3LOQX2iS1SVrkw==
+SHA1-Digest: mUYKx6aWVQEMO8gP2uYgAtV+GDA=
 
 Name: content/library_book_tags.js
 Digest-Algorithms: MD5 SHA1
@@ -142,8 +142,8 @@ SHA1-Digest: Tcjd1Z/uYC5MSMxE0EqByFhawrA=
 
 Name: content/library_metadata_template.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: fX7ouuNp28A7bWgxRw0G6A==
-SHA1-Digest: IlB07m8TRx8vJqWYOehfkwYZIY8=
+MD5-Digest: NbKlfLsLXP0XC4i8OeNBbQ==
+SHA1-Digest: LckSPZMrXU8HrSO+CvH8i253RVI=
 
 Name: content/library_tags.js
 Digest-Algorithms: MD5 SHA1
@@ -157,8 +157,8 @@ SHA1-Digest: 5DaxRUuhq9duNwz343NmLmrXINI=
 
 Name: content/library_template.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: jeuIryTNAEBL0dasDqyZbw==
-SHA1-Digest: vl5ybjleLBG4ioDPCmweETbhJ2A=
+MD5-Digest: DzZZXUEjDAL5s5TP6ZCntg==
+SHA1-Digest: oS8jcto0oKL1oSQeZuutf8Uop2Y=
 
 Name: content/nav_template.html
 Digest-Algorithms: MD5 SHA1
@@ -172,8 +172,8 @@ SHA1-Digest: LIZnc6QKcQcgsu6ZrjEbFZPMfwc=
 
 Name: content/overlay.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: avH2MQBfojJKDktitTZBaQ==
-SHA1-Digest: GRQ+FCcpPtEnz4K6ZMhwHVNFW3k=
+MD5-Digest: sWNknUs+qtUbzC+pXYrGuQ==
+SHA1-Digest: 2akPHp6egS26mboHLAhBrv/3LLw=
 
 Name: content/overlay.xul
 Digest-Algorithms: MD5 SHA1
@@ -212,8 +212,8 @@ SHA1-Digest: UFaJ+orFIcFMYWWwsyPPE07nvMQ=
 
 Name: content/synchronize.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 9d3ft4GITFGLkAVwjrqiew==
-SHA1-Digest: SluqFginlF8QJDBrfT2/OcrCDhU=
+MD5-Digest: QnE9lfoE8BxKCYZkQsp4Pg==
+SHA1-Digest: 7P96BS26OD8ug1hGnct0OUa9nBI=
 
 Name: content/synchronizer.css
 Digest-Algorithms: MD5 SHA1
@@ -262,8 +262,8 @@ SHA1-Digest: by2JyFwzZY4bDObt3bojJwZkj0U=
 
 Name: locale/ca/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/da-DK/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -277,8 +277,8 @@ SHA1-Digest: grHQwrAVWahWdBAlPOJPLqEVrBE=
 
 Name: locale/da-DK/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/de-DE/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -292,8 +292,8 @@ SHA1-Digest: bhuWPVbPe3+KLAyE1zE6VnV32RE=
 
 Name: locale/de-DE/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: v9F/wdzXQaRRV+6/hCbgoA==
-SHA1-Digest: hcVSWl9TuiBQaea6b0rGsoxs+FM=
+MD5-Digest: Poy7iOw4i3ahqxNsgGu0ng==
+SHA1-Digest: dXczLTbgo73Wq4DmQP6zMUxtGXc=
 
 Name: locale/el-GR/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -307,8 +307,8 @@ SHA1-Digest: RSF+GEhHlM9oG6EuUVpXSy7pTds=
 
 Name: locale/el-GR/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/en-US/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -322,8 +322,8 @@ SHA1-Digest: Z0RIRsslXecL0oEr6vjJ1oMb7Jo=
 
 Name: locale/en-US/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/eo/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -337,8 +337,8 @@ SHA1-Digest: KPzZPsJdz8jk3RI+B5sOYuMd6Yg=
 
 Name: locale/eo/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/es-ES/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -352,8 +352,8 @@ SHA1-Digest: GngSGiwvwFoNU1fZbMU154STmS8=
 
 Name: locale/es-ES/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/fi-FI/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -367,8 +367,8 @@ SHA1-Digest: cKmcYe3IFTfraWOZBU+VmtH5eSc=
 
 Name: locale/fi-FI/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/fr-FR/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -382,8 +382,8 @@ SHA1-Digest: x7PzP7C/IFSHKkLo1XPaa88ao48=
 
 Name: locale/fr-FR/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/he-IL/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -397,8 +397,8 @@ SHA1-Digest: 6v7zPcBi3m3c5MMibGXnDEmcRcA=
 
 Name: locale/he-IL/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/hu-HU/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -412,8 +412,8 @@ SHA1-Digest: RsAHlarOtGrJVoFqAb6WEDwNFTY=
 
 Name: locale/hu-HU/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/it-IT/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -427,8 +427,8 @@ SHA1-Digest: F1mtB/SJ8NAE37gcfTXPZeTnX5I=
 
 Name: locale/it-IT/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/ja-JP/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -442,8 +442,8 @@ SHA1-Digest: DoS9YPqq2aSy1URLEKx84+3WLrw=
 
 Name: locale/ja-JP/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/lt-LT/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -457,8 +457,8 @@ SHA1-Digest: gZqb1hw4fSiUBUgTcig33ZA1+Bg=
 
 Name: locale/lt-LT/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/nl-NL/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -472,8 +472,8 @@ SHA1-Digest: cGvL0CJ7i0e9Cbh1UIQ/7GGc42E=
 
 Name: locale/nl-NL/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/pl-PL/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -487,8 +487,8 @@ SHA1-Digest: 4iX1+u7tmyh2ZMcrklCV2aP8PMc=
 
 Name: locale/pl-PL/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/pt-BR/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -502,8 +502,8 @@ SHA1-Digest: ccZlC8M/EOGCIuqG86BONxPbd5w=
 
 Name: locale/pt-BR/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/pt-PT/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -517,8 +517,8 @@ SHA1-Digest: XIPVDxmsOAM7zqRyELDHpjYAPRE=
 
 Name: locale/pt-PT/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/ru-RU/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -532,8 +532,8 @@ SHA1-Digest: G1tSawhVog+3oZ59tTl2R4yVwcE=
 
 Name: locale/ru-RU/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/sv-SE/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -547,8 +547,8 @@ SHA1-Digest: 9Wf1s9L1sFD/sBlZ5xjaieDSP0w=
 
 Name: locale/sv-SE/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/tr-TR/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -562,8 +562,8 @@ SHA1-Digest: brs6+SqvDtiTMsJDhd+XPgOlgtw=
 
 Name: locale/tr-TR/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/zh-CN/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -577,8 +577,8 @@ SHA1-Digest: fjCVhMgyGy5PfSUcJby6JgTUb8g=
 
 Name: locale/zh-CN/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: locale/zh-TW/epubreader.dtd
 Digest-Algorithms: MD5 SHA1
@@ -592,8 +592,8 @@ SHA1-Digest: y3JegOGLNLsNRorQ1i+W/KNbs+0=
 
 Name: locale/zh-TW/whatsnew.html
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: cBMQ/2K5GVcCN8MZ7XgatQ==
-SHA1-Digest: W3npiQRQ5FuLcY7/M6g8AJscCOM=
+MD5-Digest: iIebFdp9QsmBymic+62VzA==
+SHA1-Digest: FgbtdhLDbkIPSJ5v23PMZr5wAgQ=
 
 Name: skin/basket.png
 Digest-Algorithms: MD5 SHA1
