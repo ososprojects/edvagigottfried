@@ -159,6 +159,7 @@
         <value type="string" value="14654036305.desktop"/>
         <value type="string" value="14654036766.desktop"/>
         <value type="string" value="14654052891.desktop"/>
+        <value type="string" value="14752405841.desktop"/>
         <value type="string" value="14654053482.desktop"/>
         <value type="string" value="14654053853.desktop"/>
         <value type="string" value="14654054264.desktop"/>
@@ -168,19 +169,6 @@
         <value type="string" value="14654057128.desktop"/>
         <value type="string" value="14654057539.desktop"/>
         <value type="string" value="146540578310.desktop"/>
-        <value type="string" value="14653178534.desktop"/>
-        <value type="string" value="14653177532.desktop"/>
-        <value type="string" value="14653183659.desktop"/>
-        <value type="string" value="146531840810.desktop"/>
-        <value type="string" value="146531849012.desktop"/>
-        <value type="string" value="146531853113.desktop"/>
-        <value type="string" value="14653180265.desktop"/>
-        <value type="string" value="14653182337.desktop"/>
-        <value type="string" value="14653178013.desktop"/>
-        <value type="string" value="14653181026.desktop"/>
-        <value type="string" value="146531844611.desktop"/>
-        <value type="string" value="14653182948.desktop"/>
-        <value type="string" value="146531857514.desktop"/>
       </property>
       <property name="show-label" type="bool" value="true"/>
     </property>
@@ -190,7 +178,6 @@
     <property name="plugin-26" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="146540619912.desktop"/>
-        <value type="string" value="146532012116.desktop"/>
       </property>
       <property name="show-label" type="bool" value="true"/>
     </property>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Chemie
+Comment=
+Exec=pcmanfm --profile=faecher
+Icon=
+Path=/nwbox/Faecher/Chemie
+Terminal=false
+StartupNotify=false

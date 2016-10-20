@@ -1,6 +1,9 @@
 #!/bin/sh
 
-#if [ -e /opt/Start/$1 ]; then
-cp /opt/Start/$1 /opt/Start/winstart.bat
+# if [ -e /opt/Start/$1 ]; then
+# cp /opt/Start/$1 /opt/Start/winstart.bat
+mkdir -p /opt/Start
+cp /nwbox/public/data/Start/$1 /opt/Start/winstart.bat
+chmod -R 777 /opt/Start
 vboxmanage startvm WinXP-TI 
 

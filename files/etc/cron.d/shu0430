@@ -1,0 +1,3 @@
+# shutdown at 18:30
+
+30 18-23 * * * nwboxuser /nwbox/public/shu1830.sh

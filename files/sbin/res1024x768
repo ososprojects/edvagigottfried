@@ -2,5 +2,6 @@
 
 xrandr -s 1024x768
 xfdesktop --reload
+xrandr --auto
 
 exit 0

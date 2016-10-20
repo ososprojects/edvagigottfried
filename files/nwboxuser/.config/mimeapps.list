@@ -10,6 +10,11 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+inode/directory=vlc.desktop
+video/mp4=vlc.desktop
+audio/mpeg=vlc.desktop
+video/x-flv=vlc.desktop
+video/webm=vlc.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -23,3 +28,8 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+inode/directory=vlc.desktop;
+video/mp4=vlc.desktop;
+audio/mpeg=vlc.desktop;
+video/x-flv=vlc.desktop;
+video/webm=vlc.desktop;
